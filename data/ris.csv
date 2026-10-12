@@ -33,7 +33,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 031550000000,Landkreis Northeim,https://www.landkreis-northeim.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Kreistagsinformationssystem
 031550001001,Bad Gandersheim,https://ratsinfo.bad-gandersheim.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem
 031550002002,Bodenfelde,https://bodenfelde.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-12,Linktext: Ratsinformationssystem
-031550003003,Dassel,https://ris.kdgoe.de/DAS_public/si018,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Bürgerinformation (öffentlich)
+031550003003,Dassel,https://ris.kdgoe.de/DAS_public/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Bürgerinformation (öffentlich)
 031550005005,Hardegsen,https://ris.kdgoe.de/HAR_public/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Hier gelangen Sie zu dem Ratsinformationssystem
 031550006006,Kalefeld,https://www.kalefeld.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-12,
 031550007007,Katlenburg-Lindau,https://www.katlenburglindau.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,
@@ -78,8 +78,8 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 031595402000,Samtgemeinde Gieboldehausen,https://sessionnet.owl-it.de/gieboldehausen/bi/,SessionNet,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Bürgerinformationssystem
 031595403000,Samtgemeinde Hattorf am Harz,https://ris.kdgoe.de/HAT_public/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem für Bürger*innen
 031595404000,Samtgemeinde Radolfshausen,https://sessionnet.owl-it.de/radolfshausen/bi/,SessionNet,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Bürgerinformationssystem
-032410000000,Region Hannover,https://ris.hannit.de/public/,,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: lesen
-032410001001,Hannover,https://ris.hannit.de/public/,,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: lesen
+032410000000,Region Hannover,https://ris.hannit.de/public/,,,manuell,gefunden,,2026-10-12,Verlinkt auf hannover.de unter Region Hannover/Politik
+032410001001,Hannover,https://e-government.hannover-stadt.de/lhhsimwebre.nsf,SIM (HCL Domino),,manuell,gefunden,,2026-10-12,Sitzungsinformationsmanagement der Landeshauptstadt; Einstieg auch über https://e-government.hannover-stadt.de/ratsinfo
 032410002002,Barsinghausen,https://ratsinfo.barsinghausen.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Beschlussvorlagen
 032410003003,Burgdorf,http://www.burgdorf-ratsinfo.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Sitzungstermine
 032410004004,Burgwedel,https://www.burgwedel.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Sitzungskalender
@@ -299,7 +299,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 034510004004,Edewecht,https://buergerinfo.edewecht.de/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Bürgerinfoportal der Gemeinde Edewecht
 034510005005,Rastede,https://www.rastede.de/politik/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: » Bürgerinformationssystem
 034510007007,Westerstede,https://www.westerstede.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem
-034510008008,Wiefelstede,https://buergerinfo.wiefelstede.de/gr0040.asp,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Hier gelangen Sie zum Ratsinformationssystem der Gemeinde Wiefelstede und erhalten weitere Informationen zu den Fachauss
+034510008008,Wiefelstede,https://buergerinfo.wiefelstede.de/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Hier gelangen Sie zum Ratsinformationssystem der Gemeinde Wiefelstede und erhalten weitere Informationen zu den Fachauss
 034520000000,Landkreis Aurich,https://session.landkreis-aurich.de/buergerinfo/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Sitzungskalender
 034520001001,Aurich,https://sessionnet.aurich.de/bi/,SessionNet,,crawler,gefunden (Server blockt automatische Abrufe),ConnectionError,2026-10-12,Linktext: Bürgerinfoportal
 034520002002,Baltrum,https://baltrum.gremien.info/,gremien.info,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem

@@ -97,8 +97,8 @@ def ris_root(url: str) -> str:
     m = re.search(r"^(.*?/(public|allris|bi|buergerinfo|sessionnet[^/]*|ratsinfo/[^/]+|ris/[^/]+|ratsinfo|ris))(/|$)", path, re.I)
     if m:
         path = m.group(1) + "/"
-    elif re.search(r"/(si|gr|to|vo|kp|pa)0\d0", path):
-        path = re.sub(r"/(si|gr|to|vo|kp|pa)0\d0.*$", "/", path)
+    elif re.search(r"/(si|gr|to|vo|kp|pa)0\d\d", path):
+        path = re.sub(r"/(si|gr|to|vo|kp|pa)0\d\d.*$", "/", path)
     elif re.search(r"\.(asp|php)$", path) and re.search(r"(si|kp|vo|to|info)\d*\.", path):
         path = path.rsplit("/", 1)[0] + "/"
     return urlunparse((p.scheme, p.netloc.lower(), path or "/", "", "", ""))
