@@ -36,6 +36,39 @@ ORDER BY k.ars;
 """
 
 
+def write_pruefliste(ris: list[dict]) -> None:
+    """PRUEFLISTE.md: Einträge, die eine Person im Browser nachprüfen sollte."""
+    gruppen = [
+        ("Weiterleitung über Gemeinde-Website",
+         "Link öffnen, der Weiterleitung folgen und die Ziel-URL eintragen."),
+        ("Einstiegsseite",
+         "Seite öffnen, den Link ins eigentliche RIS suchen und eintragen."),
+        ("nicht erreichbar", "Link war bei der letzten Prüfung tot (404/5xx/Host nicht erreichbar)."),
+        ("prüfen", "Link konnte nicht eindeutig bestätigt werden."),
+        ("kein", "Kein öffentliches RIS gefunden. Gelegentlich erneut nachsehen."),
+    ]
+    out = ["# Prüfliste", "",
+           "Wird von `scripts/build_db.py` automatisch erzeugt. Erledigte Einträge verschwinden, "
+           "sobald sie mit `scripts/manuell.py` korrigiert sind.", "",
+           "Eintragen (Beispiel):", "", "```bash",
+           "python scripts/manuell.py <ARS> <RIS-URL>", "python scripts/build_db.py", "```", ""]
+    total = 0
+    for prefix, hinweis in gruppen:
+        rows = [r for r in ris if r.get("status", "").startswith(prefix)]
+        if not rows:
+            continue
+        total += len(rows)
+        out += [f"## {prefix} ({len(rows)})", "", hinweis, "",
+                "| ARS | Kommune | Link | Bemerkung |", "|---|---|---|---|"]
+        for r in sorted(rows, key=lambda r: r["ars"]):
+            link = f"[öffnen]({r['ris_url']})" if r.get("ris_url") else "–"
+            out.append(f"| `{r['ars']}` | {r['name']} | {link} | {r.get('bemerkung', '').replace('|', '/')} |")
+        out.append("")
+    out.insert(2, f"Offene Einträge: **{total}**")
+    out.insert(3, "")
+    (DATA.parent / "PRUEFLISTE.md").write_text("\n".join(out), encoding="utf-8")
+
+
 def main() -> None:
     kommunen = read_csv(KOMMUNEN_CSV)
     ris = read_csv(DATA / "ris.csv")
@@ -55,6 +88,7 @@ def main() -> None:
     flat = [dict(zip(cols, row)) for row in cur.fetchall()]
     con.close()
     write_csv(DATA / "ris-niedersachsen.csv", flat, cols)
+    write_pruefliste(ris)
     offen = sum(1 for f in flat if f["ris_herkunft"] == "offen")
     print(f"{DB.name}: {len(kommunen)} Kommunen, {len(ris)} RIS-Träger, {offen} ohne RIS-Zuordnung")
 

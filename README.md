@@ -38,6 +38,7 @@ Die Software ist bei 362 Trägern erkannt: SessionNet, ALLRIS/ALLRIS 4, ratsinfo
 | `data/ris.csv` | RIS je Träger (alle Ebenen außer Mitgliedsgemeinden): URL, Software, OParl-Endpunkt, Herkunft und Prüfstatus |
 | `data/ris-niedersachsen.csv` | Gesamtliste, eine Zeile je Kommune. Mitgliedsgemeinden erhalten das RIS ihrer Samtgemeinde |
 | `data/ris-niedersachsen.sqlite` | Dieselben Daten als SQLite-Datenbank mit den Tabellen `kommunen`, `ris` und der View `kommunen_ris` |
+| `PRUEFLISTE.md` | Einträge, die im Browser nachgeprüft werden sollten (automatisch erzeugt) |
 | `data/crawler_log.csv` | Alle Kandidaten des letzten Crawler-Laufs (zur Nachkontrolle) |
 
 `ars` ist der zwölfstellige Amtliche Regionalschlüssel. Er dient als Primärschlüssel in allen Dateien.
