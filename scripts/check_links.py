@@ -35,8 +35,11 @@ def main() -> None:
     for row, code in zip(rows, results):
         row["http_status"] = code
         row["geprueft_am"] = today
-        ok = code.startswith(("2", "3", "Weiterleitung", "robots"))
-        if not ok:
+        # 401/403, TLS-Fehler und Zeitüberschreitungen sind meist Bot-/Geo-Sperren gegenüber
+        # den GitHub-Servern und kein Hinweis auf einen toten Link. Als Problem gelten nur
+        # 404/410/5xx und nicht auflösbare Hostnamen.
+        dead = code in ("404", "410") or code.startswith("5") or code == "ConnectionError"
+        if dead:
             problems.append(f"| {row['name']} | {row['ris_url']} | {code} |")
             if row.get("quelle") != "manuell":
                 row["status"] = "nicht erreichbar"
