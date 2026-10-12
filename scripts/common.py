@@ -53,7 +53,8 @@ HTML_SOFTWARE = [
 RIS_URL_HINT = re.compile(
     r"sitzung-online\.de|/allris|sessionnet|si0040|si0057|/bi/|buergerinfo|bürgerinfo|"
     r"ratsinfo|ratsinformation|more-rubin|ratsinfomanagement|sdnet|mandatos|"
-    r"/(si|gr)0\d0(\?|$|/)|kreistagsinfo|/ris/|ris\.|gremieninfo|sitzungsdienst",
+    r"/(si|gr)0\d0(\?|$|/)|kreistagsinfo|/ris/|//ris[.-]|//www\.ris[.-]|gremieninfo|sitzungsdienst|"
+    r"councilservice|/sessionnet|buergerinfo",
     re.I,
 )
 
@@ -61,7 +62,8 @@ RIS_URL_HINT = re.compile(
 LINKTEXT_HINT = re.compile(
     r"rats?\s*-?\s*info|ratsinformation|bürger\s*-?\s*info|buerger\s*-?\s*info|"
     r"kreistags?\s*-?\s*info|sitzungskalender|sitzungsdienst|sitzungstermine|sessionnet|"
-    r"allris|gremieninfo|ratssitzung|politik|kreistag|ratsarbeit",
+    r"allris|gremieninfo|ratssitzung|politik|kreistag|ratsarbeit|\brat\b|stadtrat|gemeinderat|"
+    r"samtgemeinderat|weiter zur startseite|zur startseite",
     re.I,
 )
 

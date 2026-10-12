@@ -34,7 +34,7 @@ from common import (DATA, KOMMUNEN_CSV, LINKTEXT_HINT, RIS_TRAEGER, RIS_URL_HINT
                     software_from_html, software_from_url, write_csv)
 
 TIMEOUT = 20
-MAX_FOLLOW = 6
+MAX_FOLLOW = 10
 WORKERS = 12
 
 session = requests.Session()
@@ -110,7 +110,7 @@ def score(url: str, text: str, home: str) -> int:
         s += 10
     if RIS_URL_HINT.search(url):
         s += 5
-    if re.search(r"rats?info|bürgerinfo|buergerinfo|kreistagsinfo|ratsinformation", text, re.I):
+    if re.search(r"rats?info|bürgerinfo|buergerinfo|kreistagsinfo|ratsinformation|sitzungsdienst|sitzungstermine|sitzungskalender", text, re.I):
         s += 4
     if not same_site(url, home):
         s += 2
@@ -165,13 +165,23 @@ def crawl(k: dict) -> tuple[dict, list[dict]]:
 
     def consider(url, text, via):
         sc = score(url, text, home)
-        if sc >= 9 and (url not in cands or cands[url][0] < sc):
+        if sc >= 7 and (url not in cands or cands[url][0] < sc):
             cands[url] = (sc, text, via)
         log.append({"ars": k["ars"], "url": url, "text": text, "via": via, "score": sc})
 
+    def prio(text: str) -> int:
+        if re.search(r"rats?info|bürger\s*-?\s*info|buerger\s*-?\s*info|kreistags?info|sitzung", text, re.I):
+            return 0
+        if re.search(r"politik|\brat\b|kreistag|stadtrat|gemeinderat", text, re.I):
+            return 1
+        return 2
+
+    pq: list[tuple[int, int, str]] = [(0, 0, home)]
+    counter = 0
     followed = 0
-    while queue and followed <= MAX_FOLLOW:
-        page = queue.pop(0)
+    while pq and followed <= MAX_FOLLOW:
+        pq.sort()
+        _, _, page = pq.pop(0)
         if page in seen:
             continue
         seen.add(page)
@@ -182,6 +192,8 @@ def crawl(k: dict) -> tuple[dict, list[dict]]:
             consider(normalize(r.url), "", page)
             continue
         followed += 1
+        if page == home and r.url and not same_site(r.url, home):
+            home = r.url  # Startseite leitet auf andere Domain um
         if not same_site(r.url, home) and RIS_URL_HINT.search(r.url):
             consider(normalize(r.url), "", page)  # Weiterleitung direkt ins RIS
             continue
@@ -190,10 +202,10 @@ def crawl(k: dict) -> tuple[dict, list[dict]]:
         for url, text in links(r.text, r.url):
             if RIS_URL_HINT.search(url) or re.search(r"rats?info|bürgerinfo|buergerinfo|kreistagsinfo", text, re.I):
                 consider(url, text, page)
-            if LINKTEXT_HINT.search(text) and url not in seen and len(queue) < 30:
+            if LINKTEXT_HINT.search(text) and url not in seen and len(pq) < 40 and same_site(url, home):
                 # interne Seiten und Weiterleitungs-Skripte (redirect.phtml) weiterverfolgen
-                if same_site(url, home):
-                    queue.append(url)
+                counter += 1
+                pq.append((prio(text), counter, url))
 
     if not cands:
         return {"status": "nicht gefunden"}, log
@@ -227,6 +239,8 @@ def crawl(k: dict) -> tuple[dict, list[dict]]:
         status = "gefunden"
     elif r is None and err.startswith("robots"):
         status = "gefunden (Prüfung durch robots.txt untersagt)"
+    elif r is None or (r.status_code in (401, 403)):
+        status = "gefunden (Server blockt automatische Abrufe)"
     else:
         status = "prüfen"
     res = {

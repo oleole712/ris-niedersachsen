@@ -5,7 +5,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 031510000000,Landkreis Gifhorn,,,,crawler,nicht gefunden,,2026-10-12,
 031510009009,Gifhorn,https://www.stadt-gifhorn.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-12,
 031510025025,Sassenburg,,,,crawler,nicht gefunden,,2026-10-12,
-031510040040,Wittingen,,,,crawler,nicht gefunden,,2026-10-12,
+031510040040,Wittingen,https://www.wittingen.eu/seite/776738/ris.html,Verwaltungsportal (eingebettet),,manuell,gefunden,,2026-10-12,
 031515401000,Samtgemeinde Boldecker Land,https://www.boldecker-land.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-12,
 031515402000,Samtgemeinde Brome,https://www.samtgemeinde-brome.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-12,Mitgliedsgemeinden mit eigenen Gremienmenüs
 031515403000,Samtgemeinde Hankensbüttel,https://www.sg-hankensbuettel.de/allris/,ALLRIS 4,,manuell,gefunden,,2026-10-12,
@@ -17,17 +17,17 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 031530002002,Bad Harzburg,https://www.ratsinfo.bad-harzburg.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-12,
 031530008008,Liebenburg,https://www.liebenburg.de/rathaus-verwaltung/politik/ratsinformation/,,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformation
 031530012012,Seesen,,,,crawler,nicht gefunden,,2026-10-12,
-031530016016,Braunlage,,,,crawler,nicht gefunden,,2026-10-12,
-031530017017,Goslar,,,,crawler,nicht gefunden,,2026-10-12,
+031530016016,Braunlage,,,,manuell,kein öffentliches RIS gefunden,,2026-10-12,Website kündigt Umstellung auf neues RIS an (Stand 12.10.2026)
+031530017017,Goslar,https://www.goslar.de/stadt/politik/allris/,ALLRIS,,manuell,gefunden,,2026-10-12,
 031530018018,Clausthal-Zellerfeld,https://www.clausthal-zellerfeld.sitzung-online.de/,,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinformationssystems
 031530019019,Langelsheim,,,,crawler,nicht gefunden,,2026-10-12,
-031540000000,Landkreis Helmstedt,,,,crawler,nicht gefunden,,2026-10-12,
+031540000000,Landkreis Helmstedt,https://ris.helmstedt.de/,TYPO3-RIS (EDV Helmstedt),,manuell,gefunden,,2026-10-12,
 031540013013,Königslutter am Elm,,,,crawler,nicht gefunden,,2026-10-12,
 031540014014,Lehre,https://www.lehre.de/buergerinformationssystem/,ALLRIS 4,,crawler,gefunden,200,2026-10-12,Linktext: Sitzungskalender
 031540019019,Schöningen,https://ris.schoeningen.de/index.php,,,crawler,gefunden,200,2026-10-12,Linktext: Link SchöRIS (Schöninger Ratsinformationssystem)
 031540028028,Helmstedt,https://www.stadt-helmstedt.de/rathaus/ratsinformationssystem.html,,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem
-031545401000,Samtgemeinde Grasleben,,,,crawler,nicht gefunden,,2026-10-12,
-031545402000,Samtgemeinde Heeseberg,,,,crawler,nicht gefunden,,2026-10-12,
+031545401000,Samtgemeinde Grasleben,http://ris-sg-gl-migration.edv-helmstedt.de/,TYPO3-RIS (EDV Helmstedt),,manuell,gefunden,,2026-10-12,Hostname deutet auf Migration hin
+031545402000,Samtgemeinde Heeseberg,https://ris.samtgemeindeheeseberg.de/,TYPO3-RIS (EDV Helmstedt),,manuell,gefunden,,2026-10-12,
 031545403000,Samtgemeinde Nord-Elm,https://ris.samtgemeinde-nord-elm.de/index.php,,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformation
 031545404000,Samtgemeinde Velpke,https://www.velpke.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Sitzungskalender
 031550000000,Landkreis Northeim,https://www.landkreis-northeim.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Kreistagsinformationssystem
