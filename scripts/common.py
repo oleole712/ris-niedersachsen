@@ -37,7 +37,17 @@ URL_SOFTWARE = [
     (re.compile(r"ratsinfomanagement\.net", re.I), "ratsinfomanagement.net"),
     (re.compile(r"sdnet|sitzungsdienst-", re.I), "SD.NET"),
     (re.compile(r"mandatos", re.I), "Mandatos"),
+    (re.compile(r"gremien\.info", re.I), "gremien.info"),
+    (re.compile(r"councilservice|mein-intra\.net", re.I), "Verwaltungsportal (eingebettet)"),
+    (re.compile(r"ris-portal\.de", re.I), "ris-portal.de"),
+    (re.compile(r"ratsinfoservice\.de", re.I), "ratsinfoservice.de"),
+    (re.compile(r"kommune-aktiv\.de", re.I), "kommune-aktiv.de"),
 ]
+
+# Seiten von Software-Herstellern und Verzeichnissen, die kein RIS einer Kommune sind.
+VENDOR_PAGES = re.compile(
+    r"cc-egov\.de|somacos\.de|sitzungsdienst\.net|sternberg|more-software|findcity\.de|"
+    r"wikipedia\.org|facebook\.com|instagram\.com|apps\.apple\.com|play\.google\.com", re.I)
 
 # Erkennung der Software anhand des HTML-Quelltexts der RIS-Seite.
 HTML_SOFTWARE = [
@@ -54,7 +64,8 @@ RIS_URL_HINT = re.compile(
     r"sitzung-online\.de|/allris|sessionnet|si0040|si0057|/bi/|buergerinfo|bürgerinfo|"
     r"ratsinfo|ratsinformation|more-rubin|ratsinfomanagement|sdnet|mandatos|"
     r"/(si|gr)0\d0(\?|$|/)|kreistagsinfo|/ris/|//ris[.-]|//www\.ris[.-]|gremieninfo|sitzungsdienst|"
-    r"councilservice|/sessionnet|buergerinfo",
+    r"councilservice|/sessionnet|buergerinfo|gremien\.info|mein-intra\.net|ris-portal\.de|"
+    r"ratsinformationsdienst\.de|ratsinfoservice\.de|kommune-aktiv\.de",
     re.I,
 )
 

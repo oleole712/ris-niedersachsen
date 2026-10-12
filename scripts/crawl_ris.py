@@ -29,7 +29,7 @@ import requests
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent))
-from common import (DATA, KOMMUNEN_CSV, LINKTEXT_HINT, RIS_TRAEGER, RIS_URL_HINT,  # noqa: E402
+from common import (DATA, KOMMUNEN_CSV, LINKTEXT_HINT, RIS_TRAEGER, RIS_URL_HINT, VENDOR_PAGES,  # noqa: E402
                     USER_AGENT, load_ris, read_csv, same_site, save_ris,
                     software_from_html, software_from_url, write_csv)
 
@@ -116,6 +116,8 @@ def score(url: str, text: str, home: str) -> int:
         s += 2
     if re.search(r"login|logon|personal|_gi/|mandatstr", url, re.I):
         s -= 6
+    if VENDOR_PAGES.search(url):
+        s -= 30
     if re.search(r"\.(pdf|docx?|jpg|png)$|getfile|download|httpstatus-404|broschuere|/404", url, re.I):
         s -= 20
     return s
@@ -286,6 +288,11 @@ def main() -> None:
                 res, log = {"status": f"Fehler: {type(e).__name__}"}, []
             all_log += log
             row = ris[k["ars"]]
+            if not res.get("ris_url") and row.get("ris_url"):
+                # Früheren Fund nicht wegen eines Zeitüberschreitungs-/Netzproblems verwerfen
+                row["status"] = f"im Lauf {today} nicht bestätigt"
+                print(f"[{i}/{len(todo)}] {k['name']}: alter Fund bleibt ({row['ris_url']})", flush=True)
+                continue
             row.update({"name": k["name"], "quelle": "crawler", "geprueft_am": today})
             for key in ("ris_url", "software", "oparl_url", "status", "http_status", "bemerkung"):
                 if key in res:
