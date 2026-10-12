@@ -116,7 +116,7 @@ def score(url: str, text: str, home: str) -> int:
         s += 2
     if re.search(r"login|logon|personal|_gi/|mandatstr", url, re.I):
         s -= 6
-    if re.search(r"\.(pdf|docx?|jpg|png)$", url, re.I):
+    if re.search(r"\.(pdf|docx?|jpg|png)$|getfile|download|httpstatus-404|broschuere|/404", url, re.I):
         s -= 20
     return s
 
@@ -203,6 +203,24 @@ def crawl(k: dict) -> tuple[dict, list[dict]]:
     r, err = fetch(best_url)
     final = normalize(r.url) if r is not None and r.url else best_url
     html = r.text if r is not None and r.status_code == 200 else ""
+
+    # Zwischenseite auf der Gemeinde-Website? Dann dort das eigentliche RIS suchen.
+    if html and same_site(final, home) and not software_from_url(final):
+        inner = []
+        for url, text in links(html, final):
+            sc = score(url, text, home)
+            log.append({"ars": k["ars"], "url": url, "text": text, "via": final, "score": sc})
+            if (software_from_url(url) or (not same_site(url, home) and RIS_URL_HINT.search(url))) and sc >= 9:
+                inner.append((sc, url, text))
+        if inner:
+            sc, url, text = max(inner)
+            r2, err2 = fetch(url)
+            if r2 is not None or err2.startswith("robots"):
+                r, err, best_text = r2, err2, text or best_text
+                final = normalize(r2.url) if r2 is not None and r2.url else url
+                html = r2.text if r2 is not None and r2.status_code == 200 else ""
+        elif not software_from_html(html):
+            log.append({"ars": k["ars"], "url": final, "text": "Zwischenseite ohne RIS-Link", "via": "", "score": -1})
     root = ris_root(final)
     software = software_from_url(final) or software_from_html(html)
     if r is not None and r.status_code in (0, 200):

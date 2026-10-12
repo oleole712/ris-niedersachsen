@@ -28,12 +28,13 @@ RIS_TRAEGER = {"Landkreis", "Region", "Kreisfreie Stadt", "Einheitsgemeinde", "S
 
 # Erkennung der Software anhand der URL (erste Treffer gewinnt).
 URL_SOFTWARE = [
-    (re.compile(r"sitzung-online\.de", re.I), "ALLRIS 4"),
+    (re.compile(r"sitzung-online\.de/(public|personal)", re.I), "ALLRIS 4"),
     (re.compile(r"/allris", re.I), "ALLRIS"),
     (re.compile(r"/(si|gr|to|vo|kp|pa)0\d0(\?|$|/)", re.I), "ALLRIS 4"),
     (re.compile(r"_e\.asp|/(si|to|vo|kp)0\d0\.asp", re.I), "ALLRIS"),
     (re.compile(r"sessionnet|si0040|si0057|/bi/(info|si|kp|vo|to)\d*\.(asp|php)", re.I), "SessionNet"),
-    (re.compile(r"more-rubin|ratsinfomanagement\.net", re.I), "more!rubin"),
+    (re.compile(r"more-rubin", re.I), "more!rubin"),
+    (re.compile(r"ratsinfomanagement\.net", re.I), "ratsinfomanagement.net"),
     (re.compile(r"sdnet|sitzungsdienst-", re.I), "SD.NET"),
     (re.compile(r"mandatos", re.I), "Mandatos"),
 ]
