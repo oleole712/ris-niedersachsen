@@ -1,28 +1,28 @@
 ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerkung
 031010000000,Braunschweig,https://ratsinfo.braunschweig.de/bi/,SessionNet,https://ratsinfo.braunschweig.de/bi/oparl/1.0/system.asp,manuell,gefunden,,2026-10-12,OParl-Endpunkt laut OParl-Endpunktliste (Stand 2022)
-031020000000,Salzgitter,,,,crawler,nicht gefunden,,2026-10-12,
+031020000000,Salzgitter,https://sitzungsdienst.salzgitter.de/buergerinfo/,ALLRIS,,manuell,gefunden,,2026-10-12,
 031030000000,Wolfsburg,https://ratsinfob.stadt.wolfsburg.de/,ALLRIS 4,,manuell,gefunden,,2026-10-12,
-031510000000,Landkreis Gifhorn,,,,crawler,nicht gefunden,,2026-10-12,
+031510000000,Landkreis Gifhorn,https://www.landkreis-gifhorn.de/redirect.phtml?extlink=1&La=1&url_fid=4083.1633.1,ALLRIS,,crawler,Weiterleitung über Gemeinde-Website (Ziel nicht ermittelt),,2026-10-12,Linktext auf der Website: Kreistagsinformationssystem - ALLRIS
 031510009009,Gifhorn,https://www.stadt-gifhorn.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-12,
-031510025025,Sassenburg,,,,crawler,nicht gefunden,,2026-10-12,
+031510025025,Sassenburg,https://www.sassenburg.de/redirect.phtml?extlink=1&La=1&url_fid=4082.249.1,,,crawler,Weiterleitung über Gemeinde-Website (Ziel nicht ermittelt),,2026-10-12,Linktext auf der Website
 031510040040,Wittingen,https://www.wittingen.eu/seite/776738/ris.html,Verwaltungsportal (eingebettet),,manuell,gefunden,,2026-10-12,
 031515401000,Samtgemeinde Boldecker Land,https://www.boldecker-land.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-12,
 031515402000,Samtgemeinde Brome,https://www.samtgemeinde-brome.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-12,Mitgliedsgemeinden mit eigenen Gremienmenüs
 031515403000,Samtgemeinde Hankensbüttel,https://www.sg-hankensbuettel.de/allris/,ALLRIS 4,,manuell,gefunden,,2026-10-12,
-031515404000,Samtgemeinde Isenbüttel,,,,crawler,nicht gefunden,,2026-10-12,
-031515405000,Samtgemeinde Meinersen,,,,crawler,nicht gefunden,,2026-10-12,
+031515404000,Samtgemeinde Isenbüttel,https://www.isenbuettel.de/redirect.phtml?extlink=1&La=1&url_fid=4131.6.1,,,crawler,Weiterleitung über Gemeinde-Website (Ziel nicht ermittelt),,2026-10-12,Linktext auf der Website
+031515405000,Samtgemeinde Meinersen,https://www.sg-meinersen.de/redirect.phtml?extlink=1&La=1&url_fid=4019.5.1,,,crawler,Weiterleitung über Gemeinde-Website (Ziel nicht ermittelt),,2026-10-12,Linktext auf der Website
 031515406000,Samtgemeinde Papenteich,https://www.papenteich.de/Rathaus-Politik/Politik/B%C3%BCrger-und-Ratsinformationssystem/,,,crawler,gefunden,200,2026-10-12,Linktext: Bürger- und Ratsinformationssystem
 031515407000,Samtgemeinde Wesendorf,https://www.wesendorf.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Informationssystem
 031530000000,Landkreis Goslar,https://kis.landkreis-goslar.de/sessionnet_bi/,SessionNet,,manuell,gefunden,,2026-10-12,
 031530002002,Bad Harzburg,https://www.ratsinfo.bad-harzburg.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-12,
 031530008008,Liebenburg,https://www.liebenburg.de/rathaus-verwaltung/politik/ratsinformation/,,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformation
-031530012012,Seesen,,,,crawler,nicht gefunden,,2026-10-12,
+031530012012,Seesen,https://www.stadtverwaltung-seesen.de/redirect.phtml?extlink=1&La=1&url_fid=3000.299.1,,,crawler,Weiterleitung über Gemeinde-Website (Ziel nicht ermittelt),,2026-10-12,Linktext auf der Website
 031530016016,Braunlage,,,,manuell,kein öffentliches RIS gefunden,,2026-10-12,Website kündigt Umstellung auf neues RIS an (Stand 12.10.2026)
 031530017017,Goslar,https://www.goslar.de/stadt/politik/allris/,ALLRIS,,manuell,gefunden,,2026-10-12,
 031530018018,Clausthal-Zellerfeld,https://www.clausthal-zellerfeld.sitzung-online.de/,,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinformationssystems
 031530019019,Langelsheim,https://www.langelsheim.de/Verwaltung-Politik/Politik-Vorlagen-Niederschriften/,eigene Website,,manuell,kein separates RIS,,2026-10-12,Vorlagen und Niederschriften auf der Stadt-Website
 031540000000,Landkreis Helmstedt,https://ris.helmstedt.de/,TYPO3-RIS (EDV Helmstedt),,manuell,gefunden,,2026-10-12,
-031540013013,Königslutter am Elm,,,,crawler,nicht gefunden,,2026-10-12,
+031540013013,Königslutter am Elm,https://www.koenigslutter.de/redirect.phtml?extlink=1&La=1&url_fid=4073.285.1,,,crawler,Weiterleitung über Gemeinde-Website (Ziel nicht ermittelt),,2026-10-12,Linktext auf der Website
 031540014014,Lehre,https://www.lehre.de/buergerinformationssystem/,ALLRIS 4,,crawler,gefunden,200,2026-10-12,Linktext: Sitzungskalender
 031540019019,Schöningen,https://ris.schoeningen.de/index.php,,,crawler,gefunden,200,2026-10-12,Linktext: Link SchöRIS (Schöninger Ratsinformationssystem)
 031540028028,Helmstedt,https://www.stadt-helmstedt.de/rathaus/ratsinformationssystem.html,,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem
@@ -55,7 +55,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 031580037037,Wolfenbüttel,https://ris.wf.de/bi/,SessionNet,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-12,Linktext: © DOC RABE Media - Fotolia zum Bürgerinformationssystem
 031580039039,Schladen-Werla,https://session.schladen.de/buergerinfo/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformation
 031585402000,Samtgemeinde Baddeckenstedt,https://baddeckenstedt.ris.itebo.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Informationssystem
-031585403000,Samtgemeinde Oderwald,,,,crawler,nicht gefunden,,2026-10-12,
+031585403000,Samtgemeinde Oderwald,https://www.samtgemeinde-oderwald.de/B%C3%BCrgerservice-Informationen/B%C3%BCrger-und-Ratsinformationssystem/,,,manuell,Einstiegsseite,,2026-10-12,
 031585406000,Samtgemeinde Sickte,https://www.sickte.de/Rathaus-und-Politik/Politik/Rats-und-B%C3%BCrgerinfosystem/,,,manuell,Einstiegsseite,,2026-10-12,"RIS-Link führt über Weiterleitung (robots.txt), Ziel nicht automatisch ermittelt"
 031585407000,Samtgemeinde Elm-Asse,https://www.elm-asse.de/samtgemeinde/ratsinformationssystem/,,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem
 031590000000,Landkreis Göttingen,https://www.landkreisgoettingen.de/Landkreis/Politik/Kreistags-Infos-f%C3%BCr-B%C3%BCrger-innen/,,,manuell,Einstiegsseite,,2026-10-12,Ziel des Links nicht automatisch ermittelbar
@@ -116,7 +116,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 032515405000,Samtgemeinde Rehden,https://www.rehden.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Sitzungskalender
 032515406000,Samtgemeinde Schwaförden,https://www.schwafoerden.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Sitzungskalender
 032515407000,Samtgemeinde Siedenburg,https://www.siedenburg.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinformation
-032520000000,Landkreis Hameln-Pyrmont,,,,crawler,nicht gefunden,,2026-10-12,
+032520000000,Landkreis Hameln-Pyrmont,https://www.hameln-pyrmont.de/redirect.phtml?extlink=1&La=1&url_fid=3767.515.1,,,crawler,Weiterleitung über Gemeinde-Website (Ziel nicht ermittelt),,2026-10-12,Linktext auf der Website
 032520001001,Aerzen,https://www.aerzen.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinformationssystem – für Bürger:innen
 032520002002,Bad Münder am Deister,https://ratsinfoservice.de/ris/badmuender/,,,crawler,gefunden (Server blockt automatische Abrufe),ConnectionError,2026-10-12,Linktext: Ratsinformationssystem
 032520003003,Bad Pyrmont,https://badpyrmont.ratsinfomanagement.net/termine,ratsinfomanagement.net,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: SITZUNGSTERMINE
@@ -157,7 +157,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 032560030030,Steyerberg,https://www.steyerberg.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Sitzungskalender
 032565402000,Samtgemeinde Heemsen,https://ratsinfo.heemsen.de/sessionnet/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Bürgerinformationssystem (öffentlicher Bereich)
 032565407000,Samtgemeinde Steimbke,https://www.steimbke.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinformationssystem
-032565408000,Samtgemeinde Uchte,,,,crawler,nicht gefunden,,2026-10-12,
+032565408000,Samtgemeinde Uchte,https://www.uchte-online.de/portal/seiten/ratsinformation-911000411-21590.html,,,manuell,Einstiegsseite,,2026-10-12,
 032565409000,Samtgemeinde Grafschaft Hoya,,,,crawler,nicht gefunden,,2026-10-12,
 032565410000,Samtgemeinde Mittelweser,https://www.sg-mittelweser.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Bürgerinformationssystem
 032565411000,Samtgemeinde Weser-Aue,https://www.weser-aue.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Bürgerinformationssystem
@@ -207,7 +207,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 033535401000,Samtgemeinde Elbmarsch,https://sg-elbmarsch.ris.kommune-aktiv.de/,,,crawler,prüfen,403,2026-10-12,Linktext: Bürgerinformationssystem
 033535402000,Samtgemeinde Hanstedt,https://www.hanstedt.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Sitzungskalender
 033535403000,Samtgemeinde Hollenstedt,https://www.sg-hollenstedt.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Sitzungskalender
-033535404000,Samtgemeinde Jesteburg,,,,crawler,nicht gefunden,,2026-10-12,
+033535404000,Samtgemeinde Jesteburg,https://www.jesteburg.de/allris/,ALLRIS 4,,manuell,gefunden,,2026-10-12,
 033535405000,Samtgemeinde Salzhausen,https://www.sg-salzhausen.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Sitzungskalender
 033535406000,Samtgemeinde Tostedt,https://www.tostedt.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Sitzungskalender
 033540000000,Landkreis Lüchow-Dannenberg,https://ratsinfo.luechow-dannenberg.de/buergerinfo/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Bürgerinfoportal
@@ -264,7 +264,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 033590010010,Buxtehude,https://www.buxtehude.de/allris/,ALLRIS,,crawler,prüfen,503,2026-10-12,Linktext: Rat der Hansestadt Buxtehude
 033590013013,Drochtersen,https://ris.drochtersen.de/,,,crawler,gefunden,200,2026-10-12,Linktext: ***Hier gehts zum Ratsinformationssystem***
 033590028028,Jork,https://sitzungsdienst-jork.de/bi/,ALLRIS,,crawler,gefunden (Server blockt automatische Abrufe),ConnectionError,2026-10-12,Linktext: Bürgerinfo bis 01.08.2024
-033590038038,Stade,,,,crawler,nicht gefunden,,2026-10-12,
+033590038038,Stade,https://www.stadt-stade.info/Sitzungskalender,SessionNet,,manuell,gefunden,,2026-10-12,
 033595401000,Samtgemeinde Apensen,https://www.apensen.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Bürgerinformation
 033595402000,Samtgemeinde Fredenbeck,https://www.fredenbeck.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Bürgerinformationssystem
 033595403000,Samtgemeinde Harsefeld,https://www.harsefeld.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem
@@ -281,7 +281,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 033605408000,Samtgemeinde Aue,https://sitzungsdienst.samtgemeinde-aue.de/public/,,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Bürgerinformationssystem
 033610000000,Landkreis Verden,https://landkreis-verden.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Kreistagsinformationssystem des Landkreises Verden
 033610001001,Achim,https://achim.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-12,Linktext: Ratsinformationssystem (RIS)
-033610003003,Dörverden,,,,crawler,nicht gefunden,,2026-10-12,
+033610003003,Dörverden,https://www.doerverden.de/verwaltung-politik/politik/sitzungen-versammlungen/,eigene Website,,manuell,kein separates RIS gefunden,,2026-10-12,
 033610005005,Kirchlinteln,https://kirchlinteln.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinformationssystem
 033610006006,Langwedel,https://flecken-langwedel.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinfosystem
 033610008008,Ottersberg,https://flecken-ottersberg.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinformationssystem
@@ -342,7 +342,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 034540045045,Salzbergen,https://salzbergenris.itebo.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem
 034540054054,Twist,https://www.twist-emsland.de/rathaus-buergerservice/politik-rat/buergerinfoportal/,,,crawler,gefunden,200,2026-10-12,Linktext: Bürgerinfoportal
 034545401000,Samtgemeinde Dörpen,https://www.doerpen.de/Buergerservice/Buergerinfosystem.htm,more!rubin,,crawler,gefunden,200,2026-10-12,Linktext: Bürgerinfosystem
-034545402000,Samtgemeinde Freren,,,,crawler,nicht gefunden,,2026-10-12,
+034545402000,Samtgemeinde Freren,https://www.freren.de/rathaus/ratsinformationssystem/ratsinformationssystem.html,,,manuell,Einstiegsseite,,2026-10-12,
 034545403000,Samtgemeinde Herzlake,https://herzlakeris.itebo.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Bürgerinfo
 034545404000,Samtgemeinde Lathen,https://www.sg-lathen.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinfo
 034545405000,Samtgemeinde Lengerich,https://lengerich.gremien.info/,gremien.info,,crawler,gefunden,200,2026-10-12,"Linktext: Ratsinfo Erfahren Sie mehr über Sitzungen, Beschlüsse und die Arbeit der Gremien in unserer Samtgemeinde."
@@ -363,18 +363,18 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 034560001001,Bad Bentheim,https://www.bad-bentheim.sitzung-online.de/personal/logon,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinformationssystem für Mandatsträger
 034560015015,Nordhorn,https://ratsinfo.nordhorn.de/,,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-12,Linktext: Rats- und Bürgerinformationssystem
 034560025025,Wietmarschen,https://riswietmarschen.itebo.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Ratinfosystem
-034565401000,Samtgemeinde Emlichheim,https://www.findcity.de/,,,crawler,prüfen,404,2026-10-12,Linktext: Bürgerbroschüre Online Bürgerinfo-Broschüre mit Informationen zu Adressen u.v.m
+034565401000,Samtgemeinde Emlichheim,,,,crawler,,404,2026-10-12,Linktext: Bürgerbroschüre Online Bürgerinfo-Broschüre mit Informationen zu Adressen u.v.m
 034565402000,Samtgemeinde Neuenhaus,https://neuenhaus.gremien.info/,gremien.info,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinfosystem
 034565403000,Samtgemeinde Schüttorf,https://schuettorf.gremien.info/,gremien.info,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformations­system
-034565404000,Samtgemeinde Uelsen,https://www.findcity.de/,,,crawler,gefunden,200,2026-10-12,Linktext: Mehr
+034565404000,Samtgemeinde Uelsen,,,,crawler,,200,2026-10-12,Linktext: Mehr
 034570000000,Landkreis Leer,https://lkleer.gremien.info/,gremien.info,,crawler,gefunden,200,2026-10-12,"Linktext: Kreistagsinformationssystem Alle Informationen und Termine zum Kreistag, Kreisausschuss und den Fachausschüsse - mit Rec"
-034570002002,Borkum,,,,crawler,nicht gefunden,,2026-10-12,
-034570012012,Jemgum,,,,crawler,nicht gefunden,,2026-10-12,
-034570013013,Leer,,,,crawler,nicht gefunden,,2026-10-12,
+034570002002,Borkum,https://www.stadt-borkum.de/redirect.phtml?extlink=1&La=1&url_fid=3480.65.1,ALLRIS,,manuell,Weiterleitung über Gemeinde-Website (Ziel nicht ermittelt),,2026-10-12,Linktext: Sitzungskalender; Login-Links nennen ALLRIS
+034570012012,Jemgum,https://ratsinfo.jemgum.de/,SessionNet,,manuell,gefunden,,2026-10-12,
+034570013013,Leer,https://leer.de/redirect.phtml?extlink=1&La=1&url_fid=1778.72.1,,,crawler,Weiterleitung über Gemeinde-Website (Ziel nicht ermittelt),,2026-10-12,Linktext auf der Website
 034570014014,Moormerland,https://moormerland.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,prüfen,403,2026-10-12,"Linktext: Ratsinformationssystem Sitzungstermine, Agenda, Protokolle und Ausschüsse"
 034570017017,Ostrhauderfehn,https://ratsinfo.ostrhauderfehn.de/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem
 034570018018,Rhauderfehn,https://rhauderfehn.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,prüfen,403,2026-10-12,Linktext: => Bürger- und Ratsinformationssystem
-034570020020,Uplengen,,,,crawler,nicht gefunden,,2026-10-12,
+034570020020,Uplengen,https://uplengen.de/redirect.phtml?extlink=1&La=1&url_fid=3439.91.1,,,crawler,Weiterleitung über Gemeinde-Website (Ziel nicht ermittelt),,2026-10-12,Linktext auf der Website
 034570021021,Weener,https://rat.weener.de/buergerinfo/,,,crawler,prüfen,ConnectTimeout,2026-10-12,Linktext: Bürgerinformationssystem
 034570022022,Westoverledingen,https://westoverledingen.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,prüfen,403,2026-10-12,Linktext: Unser Ratsinformationssystem
 034570024024,Bunde,https://ratsinfo.gemeinde-bunde.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: öffentlich zugängliche Bürgerinfoportal im Ratsinformationssystem
@@ -394,7 +394,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 034590004004,Bad Iburg,https://badiburg.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-12,Linktext: Ratsinfo
 034590005005,Bad Laer,https://badlaer.ris.itebo.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem
 034590006006,Bad Rothenfelde,https://rothenfelde.ris.itebo.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Sitzungskalender
-034590008008,Belm,,,,crawler,nicht gefunden,,2026-10-12,
+034590008008,Belm,https://www.belm.de/Rathaus-Politik/Politik/B%C3%BCrger-und-Ratsinfosystem/,,,manuell,Einstiegsseite,,2026-10-12,
 034590012012,Bissendorf,https://sessionnet.owl-it.de/bissendorf/bi/,SessionNet,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinformationen Bürger
 034590013013,Bohmte,https://bohmteris.itebo.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformation für Bürger
 034590014014,Bramsche,https://ris.stadt-bramsche.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem der Stadt Bramsche
@@ -414,7 +414,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 034600000000,Landkreis Vechta,https://kreistagsinfo.landkreis-vechta.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Kreistagsinformationssystem
 034600001001,Bakum,https://www.bakum.de/politik-verwaltung/ratsinfosystem/,,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinfosystem
 034600002002,Damme,https://ratsinfo.damme.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinfo
-034600003003,Dinklage,,,,crawler,nicht gefunden,,2026-10-12,
+034600003003,Dinklage,https://buergerinfo.dinklage.de/,SessionNet,,manuell,gefunden,,2026-10-12,
 034600004004,Goldenstedt,https://goldenstedt.gremien.info/,gremien.info,,crawler,gefunden,200,2026-10-12,Linktext: Bürgerinformationssystem
 034600005005,Holdorf,https://holdorf.more-rubin1.de/profil.php,more!rubin,,crawler,gefunden (Server blockt automatische Abrufe),SSLError,2026-10-12,Linktext: Mitglied in diesen Ausschüssen / Gremien
 034600006006,Lohne (Oldenburg),https://ratsinfo-lohne.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Liste der Ratsmitglieder und der beratenden Mitglieder

@@ -210,6 +210,15 @@ def crawl(k: dict) -> tuple[dict, list[dict]]:
                 pq.append((prio(text), counter, url))
 
     if not cands:
+        # Notlösung: Link der Gemeinde-Website mit eindeutigem Linktext (z. B. IKISS-Weiterleitung
+        # redirect.phtml, deren Ziel wegen robots.txt nicht abgefragt werden darf)
+        weak = [l for l in log if re.search(r"rats?info|bürger\s*-?\s*info|buergerinfo|kreistags?info", l["text"], re.I)
+                and not re.search(r"\.pdf|loadDocument|veranstaltung", l["url"] + l["text"], re.I)]
+        if weak:
+            w = sorted(weak, key=lambda l: ("redirect.phtml" not in l["url"], -l["score"]))[0]
+            return {"ris_url": w["url"], "software": "", "oparl_url": "", "http_status": "",
+                    "status": "Weiterleitung über Gemeinde-Website (Ziel nicht ermittelt)",
+                    "bemerkung": f"Linktext: {w['text']}"}, log
         return {"status": "nicht gefunden"}, log
 
     # Externe Ziele hinter Weiterleitungsskripten auflösen und bewerten
