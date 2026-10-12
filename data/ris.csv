@@ -158,7 +158,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 032565402000,Samtgemeinde Heemsen,https://ratsinfo.heemsen.de/sessionnet/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Bürgerinformationssystem (öffentlicher Bereich)
 032565407000,Samtgemeinde Steimbke,https://www.steimbke.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinformationssystem
 032565408000,Samtgemeinde Uchte,https://www.uchte-online.de/portal/seiten/ratsinformation-911000411-21590.html,,,manuell,Einstiegsseite,,2026-10-12,
-032565409000,Samtgemeinde Grafschaft Hoya,,,,crawler,nicht gefunden,,2026-10-12,
+032565409000,Samtgemeinde Grafschaft Hoya,https://www.hoya.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinformationssystem
 032565410000,Samtgemeinde Mittelweser,https://www.sg-mittelweser.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Bürgerinformationssystem
 032565411000,Samtgemeinde Weser-Aue,https://www.weser-aue.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Bürgerinformationssystem
 032570000000,Landkreis Schaumburg,https://schaumburg.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-12,Linktext: Kreistagsinformation
@@ -269,7 +269,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 033595402000,Samtgemeinde Fredenbeck,https://www.fredenbeck.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Bürgerinformationssystem
 033595403000,Samtgemeinde Harsefeld,https://www.harsefeld.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem
 033595405000,Samtgemeinde Horneburg,https://www.horneburg.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem
-033595406000,Samtgemeinde Lühe,,,,crawler,nicht gefunden,,2026-10-12,
+033595406000,Samtgemeinde Lühe,https://www.luehe.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Bürgerinfo
 033595407000,Samtgemeinde Nordkehdingen,https://nordkehdingen.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-12,Linktext: Ratsinfosystem
 033595409000,Samtgemeinde Oldendorf-Himmelpforten,https://www.oldendorf-himmelpforten.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-12,Linktext: Sitzungskalender
 033600000000,Landkreis Uelzen,https://www.landkreis-uelzen.de/desktopdefault.aspx/tabid-536/,eingebettet in Kreis-Website,,manuell,gefunden,,2026-10-12,
@@ -363,10 +363,10 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 034560001001,Bad Bentheim,https://www.bad-bentheim.sitzung-online.de/personal/logon,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-12,Linktext: Ratsinformationssystem für Mandatsträger
 034560015015,Nordhorn,https://ratsinfo.nordhorn.de/,,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-12,Linktext: Rats- und Bürgerinformationssystem
 034560025025,Wietmarschen,https://riswietmarschen.itebo.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-12,Linktext: Ratinfosystem
-034565401000,Samtgemeinde Emlichheim,,,,crawler,,404,2026-10-12,Linktext: Bürgerbroschüre Online Bürgerinfo-Broschüre mit Informationen zu Adressen u.v.m
+034565401000,Samtgemeinde Emlichheim,https://emlichheim.gremien.info/,gremien.info,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformationssystem
 034565402000,Samtgemeinde Neuenhaus,https://neuenhaus.gremien.info/,gremien.info,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinfosystem
 034565403000,Samtgemeinde Schüttorf,https://schuettorf.gremien.info/,gremien.info,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformations­system
-034565404000,Samtgemeinde Uelsen,,,,crawler,,200,2026-10-12,Linktext: Mehr
+034565404000,Samtgemeinde Uelsen,https://uelsen.gremien.info/,gremien.info,,crawler,gefunden,200,2026-10-12,Linktext: Ratsinformations-system
 034570000000,Landkreis Leer,https://lkleer.gremien.info/,gremien.info,,crawler,gefunden,200,2026-10-12,"Linktext: Kreistagsinformationssystem Alle Informationen und Termine zum Kreistag, Kreisausschuss und den Fachausschüsse - mit Rec"
 034570002002,Borkum,https://www.stadt-borkum.de/redirect.phtml?extlink=1&La=1&url_fid=3480.65.1,ALLRIS,,manuell,Weiterleitung über Gemeinde-Website (Ziel nicht ermittelt),,2026-10-12,Linktext: Sitzungskalender; Login-Links nennen ALLRIS
 034570012012,Jemgum,https://ratsinfo.jemgum.de/,SessionNet,,manuell,gefunden,,2026-10-12,
