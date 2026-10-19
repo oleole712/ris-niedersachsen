@@ -1,6 +1,6 @@
 # Prüfliste
 
-Offene Einträge: **35**
+Offene Einträge: **36**
 
 Wird von `scripts/build_db.py` automatisch erzeugt. Erledigte Einträge verschwinden, sobald sie mit `scripts/manuell.py` korrigiert sind.
 
@@ -44,7 +44,7 @@ Seite öffnen, den Link ins eigentliche RIS suchen und eintragen.
 | `034545402000` | Samtgemeinde Freren | [öffnen](https://www.freren.de/rathaus/ratsinformationssystem/ratsinformationssystem.html) |  |
 | `034590008008` | Belm | [öffnen](https://www.belm.de/Rathaus-Politik/Politik/B%C3%BCrger-und-Ratsinfosystem/) |  |
 
-## nicht erreichbar (6)
+## nicht erreichbar (7)
 
 Link war bei der letzten Prüfung tot (404/5xx/Host nicht erreichbar).
 
@@ -52,6 +52,7 @@ Link war bei der letzten Prüfung tot (404/5xx/Host nicht erreichbar).
 |---|---|---|---|
 | `032520002002` | Bad Münder am Deister | [öffnen](https://ratsinfoservice.de/ris/badmuender/) | Linktext: Ratsinformationssystem |
 | `032520008008` | Salzhemmendorf | [öffnen](http://www.salzhemmendorf.sitzung-online.de/public/) | Linktext: Bürgerinformationssystem |
+| `033545406000` | Samtgemeinde Elbtalaue | [öffnen](https://ratsinfo.elbtalaue.de/buergerinfo/) | Linktext: Bürger finden im öffentlichen Teil des Bürgerinformationssystem der Samtgemeinde Elbtalaue Informationen über Sitzungen, |
 | `033590028028` | Jork | [öffnen](https://sitzungsdienst-jork.de/bi/) | Linktext: Bürgerinfo bis 01.08.2024 |
 | `034520001001` | Aurich | [öffnen](https://sessionnet.aurich.de/bi/) | Linktext: Bürgerinfoportal |
 | `034530011011` | Löningen | [öffnen](https://ratsinfoservice.de/ris/loeningen/) | Linktext: https://ratsinfoservice.de/ris/loeningen |
