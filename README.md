@@ -29,11 +29,12 @@ Automatisch erzeugt am 22.10.2026.
 
 | Status in `data/ris.csv` | Einträge |
 |---|---:|
-| gefunden | 502 |
+| gefunden | 501 |
 | kein separates RIS | 2 |
 | Einstiegsseite | 2 |
 | kein öffentliches RIS gefunden | 1 |
 | kein separates RIS gefunden | 1 |
+| prüfen | 1 |
 <!-- STATUS:END -->
 
 ## Dateien

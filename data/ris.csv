@@ -147,7 +147,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 032540011011,Diekholzen,https://www.diekholzen.de/buergerinformationssystem/,ALLRIS,,crawler,gefunden,200,2026-10-19,Linktext: Sitzung des Rates der Gemeinde Diekholzen
 032540014014,Elze,https://www.elze.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,
 032540017017,Giesen,https://www.giesen.de/buergerinformationssystem/,ALLRIS,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinfo
-032540020020,Harsum,https://www.harsum.sitzung-online.de/personal,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Hier klicken »
+032540020020,Harsum,https://www.harsum.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,öffentlicher Bereich aus der Login-Adresse (/personal) abgeleitet
 032540021021,Hildesheim,https://sitzungsdienst-hildesheim.de/ri,SD.NET,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Ratsinformationssystem
 032540022022,Holle,https://www.holle.de/buergerinformationssystem/,ALLRIS,,crawler,gefunden,200,2026-10-19,Linktext: Sitzungskalender
 032540026026,Nordstemmen,https://nordstemmen.ratsinfomanagement.net/,SD.NET RIM,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-19,Linktext: Ratsinfosystem Sitzungsdienst
@@ -424,7 +424,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 034550026026,Varel,https://buergerinfo.varel.de/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: > zum Bürgerinformationssystem
 034550027027,Zetel,https://gemeinderats.info/buergerinfo/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformations-System (Bürgerinfo)
 034560000000,Landkreis Grafschaft Bentheim,https://sessionnet.owl-it.de/grafschaft/bi/,SessionNet,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Zum Kreistagsinformationssystem des Landkreises Grafschaft Bentheim
-034560001001,Bad Bentheim,https://www.bad-bentheim.sitzung-online.de/personal/logon,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Ratsinformationssystem für Mandatsträger
+034560001001,Bad Bentheim,https://www.bad-bentheim.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,öffentlicher Bereich aus der Login-Adresse (/personal) abgeleitet
 034560015015,Nordhorn,https://ratsinfo.nordhorn.de/,,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-19,Linktext: Rats- und Bürgerinformationssystem
 034560025025,Wietmarschen,https://riswietmarschen.itebo.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Ratinfosystem
 034565401000,Samtgemeinde Emlichheim,https://emlichheim.gremien.info/,gremien.info,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformationssystem
@@ -491,7 +491,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 034600009009,Vechta,https://ratsinfo.vechta.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinfo für Bürgerinnen und Bürger
 034600010010,Visbek,https://www.visbek.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Sitzungskalender
 034610000000,Landkreis Wesermarsch,https://kreistagsinformation.landkreis-wesermarsch.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Sitzungskalender 2026 »
-034610001001,Berne,https://berne.mein-intra.net/login,Verwaltungsportal (eingebettet),,crawler,gefunden,200,2026-10-19,Linktext: RIS-LOGIN
+034610001001,Berne,https://berne.mein-intra.net/login,Verwaltungsportal (eingebettet),,crawler,prüfen,200,2026-10-19,Link führt auf eine Login-Seite (mein-intra.net); öffentlicher RIS-Bereich noch gesucht
 034610002002,Brake (Unterweser),https://sessionnet.owl-it.de/brake_uw/bi/,SessionNet,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Hier gelangen Sie zum Bürgerinformationssystem
 034610003003,Butjadingen,https://butjadingen.ratsinfomanagement.net/,SD.NET RIM,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-19,Linktext: Ratsinformationssystem
 034610004004,Elsfleth,https://www.elsfleth.de/ratsinformationssystem-sessionnet/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformationssystem SessionNet

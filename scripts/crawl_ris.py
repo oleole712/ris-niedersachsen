@@ -93,6 +93,8 @@ def normalize(url: str) -> str:
 def ris_root(url: str) -> str:
     """Kürzt Deep-Links auf die Einstiegsseite des RIS."""
     p = urlparse(url)
+    if re.search(r"sitzung-online\.de$", p.netloc, re.I) and p.path.startswith("/personal"):
+        return urlunparse((p.scheme, p.netloc.lower(), "/public/", "", "", ""))  # Login -> öffentlicher Bereich
     if re.search(r"ratsinfomanagement\.net|gremien\.info|ris-portal\.de$", p.netloc, re.I):
         return urlunparse((p.scheme, p.netloc.lower(), "/", "", "", ""))
     path = p.path

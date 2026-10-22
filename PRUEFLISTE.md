@@ -1,6 +1,6 @@
 # Prüfliste
 
-Offene Einträge: **6**
+Offene Einträge: **7**
 
 Wird von `scripts/build_db.py` automatisch erzeugt. Erledigte Einträge verschwinden, sobald sie mit `scripts/manuell.py` korrigiert sind.
 
@@ -19,6 +19,14 @@ Seite öffnen, den Link ins eigentliche RIS suchen und eintragen.
 |---|---|---|---|
 | `031590000000` | Landkreis Göttingen | [öffnen](https://www.landkreisgoettingen.de/Landkreis/Politik/Kreistags-Infos-f%C3%BCr-B%C3%BCrger-innen/) | Ziel des Links nicht automatisch ermittelbar |
 | `034545402000` | Samtgemeinde Freren | [öffnen](https://www.freren.de/rathaus/ratsinformationssystem/ratsinformationssystem.html) |  |
+
+## prüfen (1)
+
+Link konnte nicht eindeutig bestätigt werden.
+
+| ARS | Kommune | Link | Bemerkung |
+|---|---|---|---|
+| `034610001001` | Berne | [öffnen](https://berne.mein-intra.net/login) | Link führt auf eine Login-Seite (mein-intra.net); öffentlicher RIS-Bereich noch gesucht |
 
 ## kein (4)
 
