@@ -1,6 +1,6 @@
 # Prüfliste
 
-Offene Einträge: **7**
+Offene Einträge: **6**
 
 Wird von `scripts/build_db.py` automatisch erzeugt. Erledigte Einträge verschwinden, sobald sie mit `scripts/manuell.py` korrigiert sind.
 
@@ -19,14 +19,6 @@ Seite öffnen, den Link ins eigentliche RIS suchen und eintragen.
 |---|---|---|---|
 | `031590000000` | Landkreis Göttingen | [öffnen](https://www.landkreisgoettingen.de/Landkreis/Politik/Kreistags-Infos-f%C3%BCr-B%C3%BCrger-innen/) | Ziel des Links nicht automatisch ermittelbar |
 | `034545402000` | Samtgemeinde Freren | [öffnen](https://www.freren.de/rathaus/ratsinformationssystem/ratsinformationssystem.html) |  |
-
-## prüfen (1)
-
-Link konnte nicht eindeutig bestätigt werden.
-
-| ARS | Kommune | Link | Bemerkung |
-|---|---|---|---|
-| `032520008008` | Salzhemmendorf | [öffnen](https://www.salzhemmendorf.sitzung-online.de/public/) | manuell geprüft 2026-10-22; Website verlinkte http://, das nicht antwortet; https-Variante nicht überprüfbar (robots.txt). Suchindex kennt noch /pi/si010_e.asp (altes ALLRIS) |
 
 ## kein (4)
 

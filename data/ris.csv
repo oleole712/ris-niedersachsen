@@ -124,7 +124,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 032520005005,Emmerthal,https://www.emmerthal.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinfo
 032520006006,Hameln,https://ris.hameln.de/ris/,,,crawler,gefunden (Server blockt automatische Abrufe),ConnectTimeout,2026-10-19,Linktext: Bürger- und Ratsinformationssystem
 032520007007,Hessisch Oldendorf,https://stadt-ho.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-19,Linktext: Ratsinformationssystem
-032520008008,Salzhemmendorf,https://www.salzhemmendorf.sitzung-online.de/public/,,,manuell,prüfen,,2026-10-22,"manuell geprüft 2026-10-22; Website verlinkte http://, das nicht antwortet; https-Variante nicht überprüfbar (robots.txt). Suchindex kennt noch /pi/si010_e.asp (altes ALLRIS)"
+032520008008,Salzhemmendorf,https://www.salzhemmendorf.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-22,vom Nutzer im Browser bestätigt 2026-10-22; Website verlinkt noch die nicht antwortende http-Adresse
 032540000000,Landkreis Hildesheim,https://www.landkreishildesheim.de/Politik/Kreistagsinformationssystem/,,,crawler,gefunden,200,2026-10-19,Linktext: Kreistagsinformationssystem
 032540002002,Alfeld,https://ratsinfo.stadt-alfeld.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Sitzungskalender
 032540003003,Algermissen,https://www.algermissen.de/buergerinformationssystem/,ALLRIS,,crawler,gefunden,200,2026-10-19,Linktext: Sitzungskalender
