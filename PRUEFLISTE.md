@@ -1,6 +1,6 @@
 # Prüfliste
 
-Offene Einträge: **26**
+Offene Einträge: **19**
 
 Wird von `scripts/build_db.py` automatisch erzeugt. Erledigte Einträge verschwinden, sobald sie mit `scripts/manuell.py` korrigiert sind.
 
@@ -11,21 +11,14 @@ python scripts/manuell.py <ARS> <RIS-URL>
 python scripts/build_db.py
 ```
 
-## Einstiegsseite (9)
+## Einstiegsseite (2)
 
 Seite öffnen, den Link ins eigentliche RIS suchen und eintragen.
 
 | ARS | Kommune | Link | Bemerkung |
 |---|---|---|---|
-| `031580000000` | Landkreis Wolfenbüttel | [öffnen](https://www.lkwf.de/Politik/Kreistag/) | RIS-Link auf der Kreisseite führt über Weiterleitung (robots.txt), Ziel nicht automatisch ermittelt |
-| `031585403000` | Samtgemeinde Oderwald | [öffnen](https://www.samtgemeinde-oderwald.de/B%C3%BCrgerservice-Informationen/B%C3%BCrger-und-Ratsinformationssystem/) |  |
-| `031585406000` | Samtgemeinde Sickte | [öffnen](https://www.sickte.de/Rathaus-und-Politik/Politik/Rats-und-B%C3%BCrgerinfosystem/) | RIS-Link führt über Weiterleitung (robots.txt), Ziel nicht automatisch ermittelt |
 | `031590000000` | Landkreis Göttingen | [öffnen](https://www.landkreisgoettingen.de/Landkreis/Politik/Kreistags-Infos-f%C3%BCr-B%C3%BCrger-innen/) | Ziel des Links nicht automatisch ermittelbar |
-| `032565408000` | Samtgemeinde Uchte | [öffnen](https://www.uchte-online.de/portal/seiten/ratsinformation-911000411-21590.html) |  |
-| `033575403000` | Samtgemeinde Geestequelle | [öffnen](https://www.geestequelle.de/rathaus/ratsinformationsystem/) |  |
-| `033605405000` | Samtgemeinde Suderburg | [öffnen](https://www.suderburg.de/aktuelles-service/ortsrecht-bekanntmachungen/rats-und-burgerinfosystem) |  |
 | `034545402000` | Samtgemeinde Freren | [öffnen](https://www.freren.de/rathaus/ratsinformationssystem/ratsinformationssystem.html) |  |
-| `034590008008` | Belm | [öffnen](https://www.belm.de/Rathaus-Politik/Politik/B%C3%BCrger-und-Ratsinfosystem/) |  |
 
 ## nicht erreichbar (7)
 
