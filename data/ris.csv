@@ -204,7 +204,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 033530031031,Seevetal,https://www.seevetal.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-19,Linktext: Sitzungskalender
 033530032032,Stelle,https://www.stelle.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Sitzungskalender
 033530040040,Winsen,https://www.winsen.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Politik
-033535401000,Samtgemeinde Elbmarsch,https://sg-elbmarsch.ris.kommune-aktiv.de/,,,crawler,prüfen,403,2026-10-19,Linktext: Bürgerinformationssystem
+033535401000,Samtgemeinde Elbmarsch,https://sg-elbmarsch.ris.kommune-aktiv.de/,,,manuell,gefunden,403,2026-10-22,vom Nutzer bestätigt 2026-10-22
 033535402000,Samtgemeinde Hanstedt,https://www.hanstedt.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-19,Linktext: Sitzungskalender
 033535403000,Samtgemeinde Hollenstedt,https://www.sg-hollenstedt.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Sitzungskalender
 033535404000,Samtgemeinde Jesteburg,https://www.jesteburg.de/allris/,ALLRIS 4,,manuell,gefunden,200,2026-10-19,
@@ -265,7 +265,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 033585402000,Samtgemeinde Rethem/Aller,https://ratsinfo.rethem.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformationssystem
 033585403000,Samtgemeinde Schwarmstedt,https://sessionnet.owl-it.de/schwarmstedt/bi/,SessionNet,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Ratsinformationssystem
 033590000000,Landkreis Stade,https://www.landkreis-stade.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-19,Linktext: Sitzungskalender
-033590010010,Buxtehude,https://www.buxtehude.de/allris/,ALLRIS,,crawler,prüfen,200,2026-10-19,Linktext: Rat der Hansestadt Buxtehude
+033590010010,Buxtehude,https://www.buxtehude.de/allris/,ALLRIS,,manuell,gefunden,200,2026-10-22,vom Nutzer bestätigt 2026-10-22
 033590013013,Drochtersen,https://ris.drochtersen.de/,,,crawler,gefunden,200,2026-10-19,Linktext: ***Hier gehts zum Ratsinformationssystem***
 033590028028,Jork,https://www.jork.de/allris/,ALLRIS 4,,manuell,gefunden,,2026-10-22,manuell geprüft 2026-10-22; bisheriges System sitzungsdienst-jork.de nur bis 01.08.2024
 033590038038,Stade,https://www.stadt-stade.info/Sitzungskalender,SessionNet,,manuell,gefunden,Weiterleitung (robots.txt),2026-10-19,
@@ -375,12 +375,12 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 034570002002,Borkum,https://www.borkum.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-22,"über Weiterleitung der Website aufgelöst (manuell, 2026-10-22)"
 034570012012,Jemgum,https://ratsinfo.jemgum.de/,SessionNet,,manuell,gefunden,200,2026-10-19,
 034570013013,Leer,https://sessionnet.owl-it.de/leer/bi/,SessionNet,,manuell,gefunden,,2026-10-22,"über Weiterleitung der Website aufgelöst (manuell, 2026-10-22)"
-034570014014,Moormerland,https://moormerland.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,prüfen,403,2026-10-19,"Linktext: Ratsinformationssystem Sitzungstermine, Agenda, Protokolle und Ausschüsse"
+034570014014,Moormerland,https://moormerland.ratsinfomanagement.net/,ratsinfomanagement.net,,manuell,gefunden,403,2026-10-22,vom Nutzer bestätigt 2026-10-22
 034570017017,Ostrhauderfehn,https://ratsinfo.ostrhauderfehn.de/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformationssystem
-034570018018,Rhauderfehn,https://rhauderfehn.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,prüfen,403,2026-10-19,Linktext: => Bürger- und Ratsinformationssystem
+034570018018,Rhauderfehn,https://rhauderfehn.ratsinfomanagement.net/,ratsinfomanagement.net,,manuell,gefunden,403,2026-10-22,vom Nutzer bestätigt 2026-10-22
 034570020020,Uplengen,https://uplengen.ratsinfomanagement.net/,ratsinfomanagement.net,,manuell,gefunden,,2026-10-22,"über Weiterleitung der Website aufgelöst (manuell, 2026-10-22)"
-034570021021,Weener,https://rat.weener.de/buergerinfo/,,,crawler,prüfen,ConnectTimeout,2026-10-19,Linktext: Bürgerinformationssystem
-034570022022,Westoverledingen,https://westoverledingen.ratsinfomanagement.net/,ratsinfomanagement.net,,crawler,prüfen,403,2026-10-19,Linktext: Unser Ratsinformationssystem
+034570021021,Weener,https://rat.weener.de/buergerinfo/,,,manuell,gefunden,ConnectTimeout,2026-10-22,vom Nutzer bestätigt 2026-10-22
+034570022022,Westoverledingen,https://westoverledingen.ratsinfomanagement.net/,ratsinfomanagement.net,,manuell,gefunden,403,2026-10-22,vom Nutzer bestätigt 2026-10-22
 034570024024,Bunde,https://ratsinfo.gemeinde-bunde.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: öffentlich zugängliche Bürgerinfoportal im Ratsinformationssystem
 034575402000,Samtgemeinde Hesel,https://ratsportal.hesel.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinfo Ratsinfo der Samtgemeinde Hesel
 034575403000,Samtgemeinde Jümme,https://buergerinfo.juemme.de/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Sitzungskalender
