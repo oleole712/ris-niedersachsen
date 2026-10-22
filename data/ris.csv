@@ -28,7 +28,11 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 031540028028,Helmstedt,https://www.stadt-helmstedt.de/rathaus/ratsinformationssystem.html,,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformationssystem
 031545401000,Samtgemeinde Grasleben,http://ris-sg-gl-migration.edv-helmstedt.de/,TYPO3-RIS (EDV Helmstedt),,manuell,gefunden,200,2026-10-19,Hostname deutet auf Migration hin
 031545402000,Samtgemeinde Heeseberg,https://ris.samtgemeindeheeseberg.de/,TYPO3-RIS (EDV Helmstedt),,manuell,gefunden,200,2026-10-19,
+031545402012,Jerxheim,https://ris.samtgemeindeheeseberg.de/index.php?id=13&no_cache=1,TYPO3-RIS (EDV Helmstedt),,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Sitzungstermine Samtgemeinde und Jerxheim
 031545403000,Samtgemeinde Nord-Elm,https://ris.samtgemeinde-nord-elm.de/index.php,,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformation
+031545403017,Räbke,https://ris.samtgemeinde-nord-elm.de/index.php?id=349&tx_cronmmratsinfo_pi%5Bview%5D=sitzung&tx_cronmmratsinfo_pi%5Bsitzung%5D=2998&tx_cronmmratsinfo_pi%5Breturn_url%5D=index.php%3Fid%3D349%26tx_cronmmratsinfo_pi%255Bortsfilter%255D%3D&cHash=67eb9856f818e42fd6d953dd3b48af57,,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Gemeinderat Räbke
+031545403022,Süpplingenburg,https://ris.samtgemeinde-nord-elm.de/index.php?id=349&tx_cronmmratsinfo_pi%5Bview%5D=sitzung&tx_cronmmratsinfo_pi%5Bsitzung%5D=3000&tx_cronmmratsinfo_pi%5Breturn_url%5D=index.php%3Fid%3D349%26tx_cronmmratsinfo_pi%255Bortsfilter%255D%3D&cHash=ea809aef8384a1570e97e188ebbd4b4a,,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Gemeinderat Süpplingenburg
+031545403025,Warberg,https://ris.samtgemeinde-nord-elm.de/index.php?id=349&tx_cronmmratsinfo_pi%5Bview%5D=sitzung&tx_cronmmratsinfo_pi%5Bsitzung%5D=2997&tx_cronmmratsinfo_pi%5Breturn_url%5D=index.php%3Fid%3D349%26tx_cronmmratsinfo_pi%255Bortsfilter%255D%3D&cHash=6fbeb884d9625fc932c7fb3d755c1af8,,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Gemeinderat Warberg
 031545404000,Samtgemeinde Velpke,https://www.velpke.sitzung-online.de/public/,ALLRIS 4,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Sitzungskalender
 031550000000,Landkreis Northeim,https://www.landkreis-northeim.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-19,Linktext: Kreistagsinformationssystem
 031550001001,Bad Gandersheim,https://ratsinfo.bad-gandersheim.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformationssystem
@@ -56,6 +60,12 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 031580039039,Schladen-Werla,https://session.schladen.de/buergerinfo/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformation
 031585402000,Samtgemeinde Baddeckenstedt,https://baddeckenstedt.ris.itebo.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Informationssystem
 031585403000,Samtgemeinde Oderwald,https://session.sg-oderwald.de/buergerinfo/si0040.php?__cmandant=2&__cselect=0,SessionNet,,manuell,gefunden,,2026-10-22,manuell geprüft 2026-10-22; Mandant 2 = Samtgemeinde
+031585403005,Cramme,"https://session.sg-oderwald.de/buergerinfo/yvcs.php?key=3484&dstart=20261027T180000&dend=20261027T180100&uid=si3484&smcid=218347756616532649&location=Sportheim Cramme, Am Stadtweg 9, 38312 Cramme&text=Ausschuss für Bau- und Umweltwesen",SessionNet,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: 
+031585403010,Dorstadt,https://session.sg-oderwald.de/buergerinfo/si0040.php?__cpanr=4&__cselect=0,SessionNet,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Gemeinde Dorstadt
+031585403014,Flöthe,https://session.sg-oderwald.de/buergerinfo/si0040.php?__cpanr=5&__cselect=0,SessionNet,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Gemeinde Flöthe
+031585403019,Heiningen,https://session.sg-oderwald.de/buergerinfo/si0040.php?__cpanr=6&__cselect=0,SessionNet,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Gemeinde Heiningen
+031585403023,Ohrum,https://session.sg-oderwald.de/buergerinfo/si0040.php?__cpanr=7&__cselect=0,SessionNet,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Gemeinde Ohrum
+031585403038,Börßum,https://session.sg-oderwald.de/buergerinfo/si0040.php?__cpanr=2&__cselect=0,SessionNet,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Gemeinde Börßum
 031585406000,Samtgemeinde Sickte,https://www.sickte.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-22,manuell geprüft 2026-10-22
 031585407000,Samtgemeinde Elm-Asse,https://www.elm-asse.de/samtgemeinde/ratsinformationssystem/,,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformationssystem
 031590000000,Landkreis Göttingen,https://www.landkreisgoettingen.de/Landkreis/Politik/Kreistags-Infos-f%C3%BCr-B%C3%BCrger-innen/,,,manuell,Einstiegsseite,200,2026-10-19,Ziel des Links nicht automatisch ermittelbar
@@ -77,6 +87,10 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 031595401000,Samtgemeinde Dransfeld,https://www.dransfeld.de/seite/300865,Verwaltungsportal (eingebettet),,crawler,gefunden,200,2026-10-19,Linktext: Sitzungskalender
 031595402000,Samtgemeinde Gieboldehausen,https://sessionnet.owl-it.de/gieboldehausen/bi/,SessionNet,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Bürgerinformationssystem
 031595403000,Samtgemeinde Hattorf am Harz,https://ris.kdgoe.de/HAT_public/,ALLRIS,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformationssystem für Bürger*innen
+031595403012,Elbingerode,https://ris.kdgoe.de/HAT_public/gr010?menu=Gemeinde+Elbingerode,ALLRIS 4,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Gemeinde Elbingerode
+031595403018,Hattorf am Harz,https://ris.kdgoe.de/HAT_public/gr010?menu=Gemeinde+Hattorf+am+Harz,ALLRIS 4,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Gemeinde Hattorf am Harz
+031595403020,Hörden am Harz,https://ris.kdgoe.de/HAT_public/gr010?menu=Gemeinde+H%C3%B6rden+am+Harz,ALLRIS 4,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Gemeinde Hörden am Harz
+031595403039,Wulften am Harz,https://ris.kdgoe.de/HAT_public/gr010?menu=Gemeinde+Wulften+am+Harz,ALLRIS 4,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Gemeinde Wulften am Harz
 031595404000,Samtgemeinde Radolfshausen,https://sessionnet.owl-it.de/radolfshausen/bi/,SessionNet,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Bürgerinformationssystem
 032410000000,Region Hannover,https://ris.hannit.de/public/,ALLRIS 4,,manuell,gefunden,robots.txt,2026-10-19,Verlinkt auf hannover.de unter Region Hannover/Politik
 032410001001,Hannover,https://e-government.hannover-stadt.de/lhhsimwebre.nsf,SIM (HCL Domino),,manuell,gefunden,200,2026-10-19,Sitzungsinformationsmanagement der Landeshauptstadt; Einstieg auch über https://e-government.hannover-stadt.de/ratsinfo
@@ -271,7 +285,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 033570041041,Scheeßel,https://ratsinfo.scheessel.de/,,,crawler,gefunden (Server blockt automatische Abrufe),403,2026-10-19,Linktext: Ratsinformationssystem
 033570051051,Visselhövede,https://bis.visselhoevede.de/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Kalender
 033575401000,Samtgemeinde Bothel,https://ris.bothel.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformationssystem für Bürger
-033575402000,Samtgemeinde Fintel,https://buergerinfo.sgfintel.de/,,,manuell,gefunden,200,2026-10-19,
+033575402000,Samtgemeinde Fintel,https://buergerinfo.sgfintel.de/,SessionNet,,manuell,gefunden,200,2026-10-19,
 033575403000,Samtgemeinde Geestequelle,https://geestequelle.ratsinfomanagement.net/,SD.NET RIM,,manuell,gefunden,,2026-10-22,manuell geprüft 2026-10-22
 033575403002,Alfstedt,https://geestequelle.ratsinfomanagement.net/alfstedt/,SD.NET RIM,,manuell,gefunden,,2026-10-22,manuell geprüft 2026-10-22; eigener Bereich im RIS der Samtgemeinde
 033575403004,Basdahl,https://geestequelle.ratsinfomanagement.net/basdahl/,SD.NET RIM,,manuell,gefunden,,2026-10-22,manuell geprüft 2026-10-22; eigener Bereich im RIS der Samtgemeinde
@@ -302,6 +316,7 @@ ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerk
 033585401000,Samtgemeinde Ahlden,https://ratsportal.ahlden.info/,,,manuell,gefunden,200,2026-10-19,
 033585402000,Samtgemeinde Rethem/Aller,https://ratsinfo.rethem.de/bi/,SessionNet,,crawler,gefunden,200,2026-10-19,Linktext: Ratsinformationssystem
 033585402009,Frankenfeld,http://ratsinfo.rethem.de/bi/gr0040.asp?__cpanr=102&,SessionNet,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Rat der Gemeinde Frankenfeld
+033585402018,Rethem (Aller),http://ratsinfo.rethem.de/bi/si0040.asp?smcnavgroup=0&__cmandant=2,SessionNet,,crawler-mitglied,gefunden,,2026-10-22,Bereich im RIS der Samtgemeinde; Linktext: Sitzungskalender der Samtgemeinde Rethem (Aller)
 033585403000,Samtgemeinde Schwarmstedt,https://sessionnet.owl-it.de/schwarmstedt/bi/,SessionNet,,crawler,gefunden (Prüfung durch robots.txt untersagt),robots.txt,2026-10-19,Linktext: Ratsinformationssystem
 033590000000,Landkreis Stade,https://www.landkreis-stade.de/allris/,ALLRIS,,crawler,gefunden,200,2026-10-19,Linktext: Sitzungskalender
 033590010010,Buxtehude,https://www.buxtehude.de/allris/,ALLRIS,,manuell,gefunden,200,2026-10-22,vom Nutzer bestätigt 2026-10-22
