@@ -1,6 +1,6 @@
 # Prüfliste
 
-Offene Einträge: **36**
+Offene Einträge: **26**
 
 Wird von `scripts/build_db.py` automatisch erzeugt. Erledigte Einträge verschwinden, sobald sie mit `scripts/manuell.py` korrigiert sind.
 
@@ -10,23 +10,6 @@ Eintragen (Beispiel):
 python scripts/manuell.py <ARS> <RIS-URL>
 python scripts/build_db.py
 ```
-
-## Weiterleitung über Gemeinde-Website (10)
-
-Link öffnen, der Weiterleitung folgen und die Ziel-URL eintragen.
-
-| ARS | Kommune | Link | Bemerkung |
-|---|---|---|---|
-| `031510000000` | Landkreis Gifhorn | [öffnen](https://www.landkreis-gifhorn.de/redirect.phtml?extlink=1&La=1&url_fid=4083.1633.1) | Linktext auf der Website: Kreistagsinformationssystem - ALLRIS |
-| `031510025025` | Sassenburg | [öffnen](https://www.sassenburg.de/redirect.phtml?extlink=1&La=1&url_fid=4082.249.1) | Linktext auf der Website |
-| `031515404000` | Samtgemeinde Isenbüttel | [öffnen](https://www.isenbuettel.de/redirect.phtml?extlink=1&La=1&url_fid=4131.6.1) | Linktext auf der Website |
-| `031515405000` | Samtgemeinde Meinersen | [öffnen](https://www.sg-meinersen.de/redirect.phtml?extlink=1&La=1&url_fid=4019.5.1) | Linktext auf der Website |
-| `031530012012` | Seesen | [öffnen](https://www.stadtverwaltung-seesen.de/redirect.phtml?extlink=1&La=1&url_fid=3000.299.1) | Linktext auf der Website |
-| `031540013013` | Königslutter am Elm | [öffnen](https://www.koenigslutter.de/redirect.phtml?extlink=1&La=1&url_fid=4073.285.1) | Linktext auf der Website |
-| `032520000000` | Landkreis Hameln-Pyrmont | [öffnen](https://www.hameln-pyrmont.de/redirect.phtml?extlink=1&La=1&url_fid=3767.515.1) | Linktext auf der Website |
-| `034570002002` | Borkum | [öffnen](https://www.stadt-borkum.de/redirect.phtml?extlink=1&La=1&url_fid=3480.65.1) | Linktext: Sitzungskalender; Login-Links nennen ALLRIS |
-| `034570013013` | Leer | [öffnen](https://leer.de/redirect.phtml?extlink=1&La=1&url_fid=1778.72.1) | Linktext auf der Website |
-| `034570020020` | Uplengen | [öffnen](https://uplengen.de/redirect.phtml?extlink=1&La=1&url_fid=3439.91.1) | Linktext auf der Website |
 
 ## Einstiegsseite (9)
 

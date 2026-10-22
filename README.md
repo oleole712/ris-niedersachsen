@@ -22,13 +22,12 @@ Für 439 der 440 RIS-Träger ist ein Link erfasst. Für Braunlage wurde kein öf
 
 | Status (`data/ris.csv`) | Anzahl | Bedeutung |
 |---|---:|---|
-| gefunden | 410 | Direkter Link ins RIS (teils ohne automatische Prüfung, weil robots.txt oder der Server automatische Abrufe blockt) |
-| Weiterleitung über Gemeinde-Website | 10 | Der Link ist eine Weiterleitung der Gemeinde-Website (IKISS `redirect.phtml`). Er funktioniert im Browser, das Ziel ist aber wegen robots.txt nicht automatisch ermittelt |
+| gefunden | 420 | Direkter Link ins RIS (teils ohne automatische Prüfung, weil robots.txt oder der Server automatische Abrufe blockt) |
 | Einstiegsseite | 9 | Seite der Kommune, die zum RIS führt |
 | kein separates RIS | 3 | Sitzungsunterlagen stehen auf der normalen Website |
 | prüfen | 7 | Der Prüfserver hat den Link nicht erreicht (Zeitüberschreitung o. Ä.) |
 
-Die Software ist bei 362 Trägern erkannt: SessionNet, ALLRIS/ALLRIS 4, ratsinfomanagement.net, gremien.info, more!rubin u. a.
+Die Software ist bei rund 370 Trägern erkannt: SessionNet, ALLRIS/ALLRIS 4, ratsinfomanagement.net, gremien.info, more!rubin u. a.
 
 ## Dateien
 
