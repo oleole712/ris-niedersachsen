@@ -23,8 +23,8 @@ Automatisch erzeugt am 22.10.2026.
 
 - RIS-Träger (ohne Mitgliedsgemeinden) mit Link: **439 von 440**
 - Mitgliedsgemeinden mit eigenem Bereich im RIS: **68 von 650**, die übrigen sind über das RIS ihrer Samtgemeinde zugeordnet
-- Häufigste Software: SessionNet (136), ALLRIS 4 (94), SD.NET RIM (89), ALLRIS (87), gremien.info (20), SD.NET (6), regisafe RIS (6), Verwaltungsportal (eingebettet) (5)
-- OParl-Schnittstellen gefunden: **1**
+- Häufigste Software: SessionNet (135), ALLRIS 4 (95), SD.NET RIM (89), ALLRIS (87), gremien.info (20), SD.NET (6), regisafe RIS (6), Verwaltungsportal (eingebettet) (5)
+- OParl-Schnittstellen gefunden: **0**
 - Offene Punkte: siehe [PRUEFLISTE.md](PRUEFLISTE.md)
 
 | Status in `data/ris.csv` | Einträge |

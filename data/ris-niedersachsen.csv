@@ -1,5 +1,5 @@
 ars,ags,name,typ,kreis_ars,kreis,samtgemeinde_ars,samtgemeinde,website,ris_url,software,oparl_url,ris_herkunft,status,geprueft_am,wikidata,gueltig_bis,bemerkung
-031010000000,03101000,Braunschweig,Kreisfreie Stadt,,,,,https://www.braunschweig.de/,https://ratsinfo.braunschweig.de/bi/,SessionNet,https://ratsinfo.braunschweig.de/bi/oparl/1.0/system.asp,eigenes RIS,gefunden,2026-10-19,Q2773,,
+031010000000,03101000,Braunschweig,Kreisfreie Stadt,,,,,https://www.braunschweig.de/,https://ratsinfo.braunschweig.de/public/,ALLRIS 4,,eigenes RIS,gefunden,2026-10-22,Q2773,,
 031020000000,03102000,Salzgitter,Kreisfreie Stadt,,,,,https://www.salzgitter.de/,https://sitzungsdienst.salzgitter.de/buergerinfo/,ALLRIS,,eigenes RIS,gefunden,2026-10-19,Q3200,,
 031030000000,03103000,Wolfsburg,Kreisfreie Stadt,,,,,https://www.wolfsburg.de/,https://ratsinfob.stadt.wolfsburg.de/,ALLRIS 4,,eigenes RIS,gefunden,2026-10-19,Q3014,,
 031510000000,,Landkreis Gifhorn,Landkreis,,,,,https://landkreis-gifhorn.de,https://www.lk-gifhorn.sitzung-online.de/public/,ALLRIS 4,,eigenes RIS,gefunden,2026-10-22,Q6053,,

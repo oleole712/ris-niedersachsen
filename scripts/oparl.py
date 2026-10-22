@@ -46,13 +46,22 @@ def is_oparl_system(resp) -> bool:
     return "oparl.org/schema/1." in t and "System" in t
 
 
+PROBELOG: dict[str, dict] = {}
+
+
 def probe(url: str) -> str:
+    codes = []
     for c in candidates(url):
-        r, _ = fetch(c)
+        r, err = fetch(c)
+        codes.append(err or str(r.status_code))
         if r is not None and r.status_code == 0:
             continue
         if is_oparl_system(r):
+            PROBELOG[url] = {"ris": url, "ergebnis": r.url, "antworten": ""}
             return r.url
+    from collections import Counter
+    PROBELOG[url] = {"ris": url, "ergebnis": "",
+                     "antworten": " ".join(f"{k}x{v}" for k, v in Counter(codes).most_common())}
     return ""
 
 
@@ -72,6 +81,9 @@ def main() -> None:
                 r["oparl_url"] = found
                 n += 1
     save_ris(ris)
+    from common import DATA, write_csv
+    write_csv(DATA / "oparl_pruefung.csv", sorted(PROBELOG.values(), key=lambda x: x["ris"]),
+              ["ris", "ergebnis", "antworten"])
     print(f"OParl-Schnittstelle bei {n} von {len(rows)} Einträgen gefunden.")
     for root, found in sorted(results.items()):
         if found:

@@ -1,5 +1,5 @@
 ars,name,ris_url,software,oparl_url,quelle,status,http_status,geprueft_am,bemerkung
-031010000000,Braunschweig,https://ratsinfo.braunschweig.de/bi/,SessionNet,https://ratsinfo.braunschweig.de/bi/oparl/1.0/system.asp,manuell,gefunden,Weiterleitung (robots.txt),2026-10-19,OParl-Endpunkt laut OParl-Endpunktliste (Stand 2022)
+031010000000,Braunschweig,https://ratsinfo.braunschweig.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-22,Umstellung von SessionNet (/bi/) auf ALLRIS 4; alter OParl-Endpunkt aus der OParl-Liste 2022 entfällt
 031020000000,Salzgitter,https://sitzungsdienst.salzgitter.de/buergerinfo/,ALLRIS,,manuell,gefunden,ConnectTimeout,2026-10-19,
 031030000000,Wolfsburg,https://ratsinfob.stadt.wolfsburg.de/,ALLRIS 4,,manuell,gefunden,403,2026-10-19,
 031510000000,Landkreis Gifhorn,https://www.lk-gifhorn.sitzung-online.de/public/,ALLRIS 4,,manuell,gefunden,,2026-10-22,"über Weiterleitung der Website aufgelöst (manuell, 2026-10-22)"
