@@ -1,6 +1,6 @@
 # Prüfliste
 
-Offene Einträge: **19**
+Offene Einträge: **13**
 
 Wird von `scripts/build_db.py` automatisch erzeugt. Erledigte Einträge verschwinden, sobald sie mit `scripts/manuell.py` korrigiert sind.
 
@@ -20,26 +20,13 @@ Seite öffnen, den Link ins eigentliche RIS suchen und eintragen.
 | `031590000000` | Landkreis Göttingen | [öffnen](https://www.landkreisgoettingen.de/Landkreis/Politik/Kreistags-Infos-f%C3%BCr-B%C3%BCrger-innen/) | Ziel des Links nicht automatisch ermittelbar |
 | `034545402000` | Samtgemeinde Freren | [öffnen](https://www.freren.de/rathaus/ratsinformationssystem/ratsinformationssystem.html) |  |
 
-## nicht erreichbar (7)
-
-Link war bei der letzten Prüfung tot (404/5xx/Host nicht erreichbar).
-
-| ARS | Kommune | Link | Bemerkung |
-|---|---|---|---|
-| `032520002002` | Bad Münder am Deister | [öffnen](https://ratsinfoservice.de/ris/badmuender/) | Linktext: Ratsinformationssystem |
-| `032520008008` | Salzhemmendorf | [öffnen](http://www.salzhemmendorf.sitzung-online.de/public/) | Linktext: Bürgerinformationssystem |
-| `033545406000` | Samtgemeinde Elbtalaue | [öffnen](https://ratsinfo.elbtalaue.de/buergerinfo/) | Linktext: Bürger finden im öffentlichen Teil des Bürgerinformationssystem der Samtgemeinde Elbtalaue Informationen über Sitzungen, |
-| `033590028028` | Jork | [öffnen](https://sitzungsdienst-jork.de/bi/) | Linktext: Bürgerinfo bis 01.08.2024 |
-| `034520001001` | Aurich | [öffnen](https://sessionnet.aurich.de/bi/) | Linktext: Bürgerinfoportal |
-| `034530011011` | Löningen | [öffnen](https://ratsinfoservice.de/ris/loeningen/) | Linktext: https://ratsinfoservice.de/ris/loeningen |
-| `034550021021` | Wangerooge | [öffnen](https://ratsinfo.wangerooge.de/) | Linktext: Ratsinformation |
-
-## prüfen (6)
+## prüfen (7)
 
 Link konnte nicht eindeutig bestätigt werden.
 
 | ARS | Kommune | Link | Bemerkung |
 |---|---|---|---|
+| `032520008008` | Salzhemmendorf | [öffnen](https://www.salzhemmendorf.sitzung-online.de/public/) | manuell geprüft 2026-10-22; Website verlinkte http://, das nicht antwortet; https-Variante nicht überprüfbar (robots.txt). Suchindex kennt noch /pi/si010_e.asp (altes ALLRIS) |
 | `033535401000` | Samtgemeinde Elbmarsch | [öffnen](https://sg-elbmarsch.ris.kommune-aktiv.de/) | Linktext: Bürgerinformationssystem |
 | `033590010010` | Buxtehude | [öffnen](https://www.buxtehude.de/allris/) | Linktext: Rat der Hansestadt Buxtehude |
 | `034570014014` | Moormerland | [öffnen](https://moormerland.ratsinfomanagement.net/) | Linktext: Ratsinformationssystem Sitzungstermine, Agenda, Protokolle und Ausschüsse |
