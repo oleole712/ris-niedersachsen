@@ -30,18 +30,21 @@ RIS_TRAEGER = {"Landkreis", "Region", "Kreisfreie Stadt", "Einheitsgemeinde", "S
 URL_SOFTWARE = [
     (re.compile(r"sitzung-online\.de/(public|personal)", re.I), "ALLRIS 4"),
     (re.compile(r"/allris", re.I), "ALLRIS"),
+    # ALLRIS 4 trennt öffentlichen Bereich (/public/) und Mandatsträgerbereich (/personal/)
+    (re.compile(r"^https?://[^/]*(ratsinfo|sitzungsdienst|buergerinfo|ris|sitzung)[^/]*/(public|personal)/?$", re.I), "ALLRIS 4"),
     (re.compile(r"/(si|gr|to|vo|kp|pa)0\d\d(\?|$|/)", re.I), "ALLRIS 4"),
     (re.compile(r"_e\.asp|/(si|to|vo|kp)0\d0\.asp", re.I), "ALLRIS"),
-    (re.compile(r"sessionnet|si0040|si0057|/bi/(info|si|kp|vo|to)\d*\.(asp|php)", re.I), "SessionNet"),
+    (re.compile(r"sessionnet|somacos|si00\d\d|gr00\d\d|kp00\d\d|vo00\d\d|to00\d\d|"
+                r"/(bi|buergerinfo)/(info|si|kp|vo|to|gr)\d*\.(asp|php)|ylogon\.asp", re.I), "SessionNet"),
     (re.compile(r"more-rubin", re.I), "more!rubin"),
-    (re.compile(r"ratsinfomanagement\.net", re.I), "ratsinfomanagement.net"),
+    (re.compile(r"ratsinfomanagement\.net", re.I), "SD.NET RIM"),
     (re.compile(r"sdnet|sitzungsdienst-", re.I), "SD.NET"),
     (re.compile(r"mandatos", re.I), "Mandatos"),
     (re.compile(r"gremien\.info", re.I), "gremien.info"),
     (re.compile(r"councilservice|mein-intra\.net", re.I), "Verwaltungsportal (eingebettet)"),
-    (re.compile(r"ris-portal\.de", re.I), "ris-portal.de"),
+    (re.compile(r"ris-portal\.de", re.I), "regisafe RIS"),
     (re.compile(r"ratsinfoservice\.de", re.I), "ratsinfoservice.de"),
-    (re.compile(r"kommune-aktiv\.de", re.I), "kommune-aktiv.de"),
+    (re.compile(r"kommune-aktiv\.de", re.I), "KOMMUNE-AKTIV"),
 ]
 
 # Seiten von Software-Herstellern und Verzeichnissen, die kein RIS einer Kommune sind.

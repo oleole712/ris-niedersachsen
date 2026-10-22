@@ -16,29 +16,37 @@ kreisfreie Städte, Einheitsgemeinden, Samtgemeinden und Mitgliedsgemeinden.
 
 Stand des Gebietsbestands: 12.10.2026, also vor dem 01.11.2026 (siehe unten).
 
-## Stand der RIS-Erfassung (12.10.2026)
+## Stand der RIS-Erfassung
 
-Für 439 der 440 RIS-Träger ist ein Link erfasst. Für Braunlage wurde kein öffentliches RIS gefunden, die Stadt stellt laut Website gerade um. Die 650 Mitgliedsgemeinden sind über das RIS ihrer Samtgemeinde zugeordnet.
+<!-- STATUS:START -->
+Automatisch erzeugt am 22.10.2026.
 
-| Status (`data/ris.csv`) | Anzahl | Bedeutung |
-|---|---:|---|
-| gefunden | 420 | Direkter Link ins RIS (teils ohne automatische Prüfung, weil robots.txt oder der Server automatische Abrufe blockt) |
-| Einstiegsseite | 9 | Seite der Kommune, die zum RIS führt |
-| kein separates RIS | 3 | Sitzungsunterlagen stehen auf der normalen Website |
-| prüfen | 7 | Der Prüfserver hat den Link nicht erreicht (Zeitüberschreitung o. Ä.) |
+- RIS-Träger (ohne Mitgliedsgemeinden) mit Link: **439 von 440**
+- Mitgliedsgemeinden mit eigenem Bereich im RIS: **53 von 650**, die übrigen sind über das RIS ihrer Samtgemeinde zugeordnet
+- Häufigste Software: SessionNet (128), ALLRIS 4 (90), SD.NET RIM (89), ALLRIS (87), gremien.info (20), SD.NET (6), regisafe RIS (6), Verwaltungsportal (eingebettet) (5)
+- OParl-Schnittstellen gefunden: **1**
+- Offene Punkte: siehe [PRUEFLISTE.md](PRUEFLISTE.md)
 
-Die Software ist bei rund 370 Trägern erkannt: SessionNet, ALLRIS/ALLRIS 4, ratsinfomanagement.net, gremien.info, more!rubin u. a.
+| Status in `data/ris.csv` | Einträge |
+|---|---:|
+| gefunden | 487 |
+| kein separates RIS | 2 |
+| Einstiegsseite | 2 |
+| kein öffentliches RIS gefunden | 1 |
+| kein separates RIS gefunden | 1 |
+<!-- STATUS:END -->
 
 ## Dateien
 
 | Datei | Inhalt |
 |---|---|
 | `data/kommunen.csv` | Stammdaten: ARS, AGS, Name, Typ, übergeordneter Landkreis bzw. Samtgemeinde, Website, Wikidata-ID |
-| `data/ris.csv` | RIS je Träger (alle Ebenen außer Mitgliedsgemeinden): URL, Software, OParl-Endpunkt, Herkunft und Prüfstatus |
+| `data/ris.csv` | RIS je Träger: URL, Software, OParl-Endpunkt, Herkunft und Prüfstatus. Mitgliedsgemeinden nur, wenn sie einen eigenen Bereich im RIS haben |
 | `data/ris-niedersachsen.csv` | Gesamtliste, eine Zeile je Kommune. Mitgliedsgemeinden erhalten das RIS ihrer Samtgemeinde |
 | `data/ris-niedersachsen.sqlite` | Dieselben Daten als SQLite-Datenbank mit den Tabellen `kommunen`, `ris` und der View `kommunen_ris` |
 | `PRUEFLISTE.md` | Einträge, die im Browser nachgeprüft werden sollten (automatisch erzeugt) |
-| `data/crawler_log.csv` | Alle Kandidaten des letzten Crawler-Laufs (zur Nachkontrolle) |
+| `data/gebietsaenderungen.csv` | Bekannte und geplante Gebietsänderungen mit Rechtsgrundlage |
+| `data/crawler_log.csv` | Alle Link-Kandidaten der Crawler-Läufe (zur Nachkontrolle, wird fortgeschrieben) |
 
 `ars` ist der zwölfstellige Amtliche Regionalschlüssel. Er dient als Primärschlüssel in allen Dateien.
 

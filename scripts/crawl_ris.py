@@ -311,7 +311,12 @@ def main() -> None:
             print(f"[{i}/{len(todo)}] {k['name']}: {res.get('ris_url') or res.get('status')}", flush=True)
 
     save_ris(ris)
-    write_csv(DATA / "crawler_log.csv", sorted(all_log, key=lambda x: (x["ars"], -x["score"])),
+    # Protokoll fortschreiben: Einträge nicht neu durchsuchter Kommunen bleiben erhalten
+    crawled = {k["ars"] for k in todo}
+    keep = [r for r in read_csv(DATA / "crawler_log.csv") if r["ars"] not in crawled]
+    merged = {(r["ars"], r["url"]): r for r in keep + all_log}
+    write_csv(DATA / "crawler_log.csv",
+              sorted(merged.values(), key=lambda x: (x["ars"], -int(x["score"]))),
               ["ars", "score", "url", "text", "via"])
     found = sum(1 for r in ris.values() if r.get("ris_url"))
     print(f"Fertig: {found}/{len(ris)} Träger mit RIS-URL.")

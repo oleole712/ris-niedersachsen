@@ -35,11 +35,14 @@ jobs:
           else
             python scripts/crawl_ris.py --nur-offene
           fi
+      - run: python scripts/software.py --live
+      - run: python scripts/mitgliedsgemeinden.py --live
+      - run: python scripts/oparl.py | tee -a "$GITHUB_STEP_SUMMARY"
       - run: python scripts/build_db.py | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ PRUEFLISTE.md
+          git add data/ PRUEFLISTE.md README.md
           git diff --cached --quiet || git commit -m "Daten: RIS-Crawler $(date +%F)"
           git push

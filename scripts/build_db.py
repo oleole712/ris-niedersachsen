@@ -69,6 +69,38 @@ def write_pruefliste(ris: list[dict]) -> None:
     (DATA.parent / "PRUEFLISTE.md").write_text("\n".join(out), encoding="utf-8")
 
 
+def write_readme_status(flat: list[dict], ris: list[dict]) -> None:
+    """Ersetzt den Abschnitt zwischen den STATUS-Markierungen der README."""
+    import collections
+    import datetime as dt
+    import re
+
+    readme = DATA.parent / "README.md"
+    text = readme.read_text(encoding="utf-8")
+    traeger = [f for f in flat if f["typ"] != "Mitgliedsgemeinde"]
+    mit = [f for f in traeger if f["ris_url"]]
+    mg = [f for f in flat if f["typ"] == "Mitgliedsgemeinde"]
+    mg_eigen = sum(1 for f in mg if f["ris_herkunft"] == "eigenes RIS")
+    status = collections.Counter(re.sub(r"\s*\(.*", "", r["status"] or "offen") for r in ris)
+    soft = collections.Counter(r["software"] for r in ris if r.get("ris_url") and r.get("software"))
+    oparl = len({r["oparl_url"] for r in ris if r.get("oparl_url")})
+    zeilen = "\n".join(f"| {k} | {v} |" for k, v in status.most_common())
+    sw = ", ".join(f"{k} ({v})" for k, v in soft.most_common(8))
+    block = (
+        f"Automatisch erzeugt am {dt.date.today():%d.%m.%Y}.\n\n"
+        f"- RIS-Träger (ohne Mitgliedsgemeinden) mit Link: **{len(mit)} von {len(traeger)}**\n"
+        f"- Mitgliedsgemeinden mit eigenem Bereich im RIS: **{mg_eigen} von {len(mg)}**, "
+        f"die übrigen sind über das RIS ihrer Samtgemeinde zugeordnet\n"
+        f"- Häufigste Software: {sw}\n"
+        f"- OParl-Schnittstellen gefunden: **{oparl}**\n"
+        f"- Offene Punkte: siehe [PRUEFLISTE.md](PRUEFLISTE.md)\n\n"
+        f"| Status in `data/ris.csv` | Einträge |\n|---|---:|\n{zeilen}\n"
+    )
+    text = re.sub(r"(<!-- STATUS:START -->\n).*?(<!-- STATUS:END -->)", lambda m: m.group(1) + block + m.group(2),
+                  text, flags=re.S)
+    readme.write_text(text, encoding="utf-8")
+
+
 def main() -> None:
     kommunen = read_csv(KOMMUNEN_CSV)
     ris = read_csv(DATA / "ris.csv")
@@ -89,8 +121,9 @@ def main() -> None:
     con.close()
     write_csv(DATA / "ris-niedersachsen.csv", flat, cols)
     write_pruefliste(ris)
+    write_readme_status(flat, ris)
     offen = sum(1 for f in flat if f["ris_herkunft"] == "offen")
-    print(f"{DB.name}: {len(kommunen)} Kommunen, {len(ris)} RIS-Träger, {offen} ohne RIS-Zuordnung")
+    print(f"{DB.name}: {len(kommunen)} Kommunen, {len(ris)} RIS-Einträge, {offen} ohne RIS-Zuordnung")
 
 
 if __name__ == "__main__":
