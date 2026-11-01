@@ -63,7 +63,7 @@ https://cuxhaven.ratsinfomanagement.net/,,robots.txtx13
 https://delligsen.ratsinfomanagement.net/,,403x12 400x1
 https://dissen.ratsinfomanagement.net/,,403x12 400x1
 https://dornum.gremien.info/,,200x13
-https://e-government.hannover-stadt.de/lhhsimwebre.nsf,,503x13
+https://e-government.hannover-stadt.de/lhhsimwebre.nsf,,200x13
 https://egov3.heidekreis.de/somacos-nk/nkbi/,,ConnectTimeoutx35
 https://egov3.heidekreis.de/somacos/buergerinfo/,,ConnectTimeoutx35
 https://emlichheim.gremien.info/,,200x13
@@ -135,7 +135,7 @@ https://papenburg.gremien.info/,,200x13
 https://pattensen.gremien.info/,,200x13
 https://rat.gellersen.de/buergerinfo/,,404x24
 https://rat.weener.de/buergerinfo/,,ConnectTimeoutx24
-https://ratsinfo-bruvi.de/buergerinfo/,,404x24
+https://ratsinfo-bruvi.de/buergerinfo/,,404x13 ConnectTimeoutx11
 https://ratsinfo-lohne.de/bi/,,404x24
 https://ratsinfo.bad-gandersheim.de/bi/,,404x24
 https://ratsinfo.barsinghausen.de/bi/,,404x24
@@ -154,7 +154,7 @@ https://ratsinfo.holtriem.de/,,404x13
 https://ratsinfo.jemgum.de/,,404x13
 https://ratsinfo.kreis-ni.de/bi/,,404x24
 https://ratsinfo.laatzen.de/public/,,robots.txtx23
-https://ratsinfo.luechow-dannenberg.de/buergerinfo/,,ConnectionErrorx17 404x7
+https://ratsinfo.luechow-dannenberg.de/buergerinfo/,,404x11 ConnectionErrorx10 403x3
 https://ratsinfo.nienburg.de/bineu/,,404x24
 https://ratsinfo.nordhorn.de/,,403x12 400x1
 https://ratsinfo.obernkirchen.de/bi/,,404x24
@@ -168,7 +168,7 @@ https://ratsinfo.stadt-alfeld.de/bi/,,404x24
 https://ratsinfo.stadt-peine.de/public/,,robots.txtx23
 https://ratsinfo.stadthemmingen.de/public/,,robots.txtx23
 https://ratsinfo.tarmstedt.de/bi/,,404x24
-https://ratsinfo.vechta.de/bi/,,404x13 502x11
+https://ratsinfo.vechta.de/bi/,,404x13 500x11
 https://ratsinfo.wangerland.org/bi/,,200x24
 https://ratsinfo.wangerooge.de/,,503x13
 https://ratsinfo.wendeburg.de/public/,,robots.txtx23
@@ -183,6 +183,7 @@ https://ratsportal.hesel.de/bi/,,404x24
 https://rhauderfehn.ratsinfomanagement.net/,,403x12 400x1
 https://rhede-ems.ratsinfomanagement.net/,,403x12 400x1
 https://rinteln.ratsinfomanagement.net/,,robots.txtx13
+https://ris-sg-gl-migration.edv-helmstedt.de/index.php,,404x13
 https://ris.bersenbrueck.de/bi/,,404x24
 https://ris.bothel.de/bi/,,404x24
 https://ris.drochtersen.de/,,200x13
@@ -226,7 +227,7 @@ https://session.melle.info/bi/,,404x24
 https://session.schladen.de/buergerinfo/,,404x24
 https://session.sg-oderwald.de/buergerinfo/,,404x24
 https://sessionnet.aurich.de/sessionnet/,,ConnectionErrorx24
-https://sessionnet.lk-rotenburg.de/sessionnet/,,503x24
+https://sessionnet.lk-rotenburg.de/sessionnet/,,404x24
 https://sessionnet.owl-it.de/bad_grund/bi/,,robots.txtx35
 https://sessionnet.owl-it.de/bissendorf/bi/,,robots.txtx35
 https://sessionnet.owl-it.de/bovenden/bi/,,robots.txtx35
@@ -291,7 +292,7 @@ https://www.amelinghausen.sitzung-online.de/bi/,,robots.txtx24
 https://www.ammerland.de/Aktuelles/Presse-und-%C3%96ffentlichkeitsarbeit/Pressemitteilungen/B%C3%BCrgerinfoportal-SessionNet-nur-eingeschr%C3%A4nkt-erreichbar.php,,200x22 404x13
 https://www.amt-neuhaus.sitzung-online.de/public/,,robots.txtx23
 https://www.apensen.sitzung-online.de/public/,,robots.txtx23
-https://www.bad-bentheim.sitzung-online.de/personal/logon,,robots.txtx24
+https://www.bad-bentheim.sitzung-online.de/public/,,robots.txtx23
 https://www.bad-salzdetfurth.de/buergerinformationssystem/,,404x23 500x1
 https://www.bad-zwischenahn.de/sessionnet/,,404x24
 https://www.badfallingbostel.de/Rathaus/Information/Ratsinformationssystem/,,200x22 404x13
@@ -313,11 +314,11 @@ https://www.cappeln.sitzung-online.de/public/,,robots.txtx23
 https://www.celle.de/buergerinformationssystem/,,404x23 500x1
 https://www.clausthal-zellerfeld.sitzung-online.de/,,robots.txtx13
 https://www.cremlingen.sitzung-online.de/public/,,robots.txtx23
-https://www.diekholzen.de/buergerinformationssystem/,,404x22 200x2
+https://www.diekholzen.de/buergerinformationssystem/,,404x22 robots.txt (Ziel)x2
 https://www.diepholz.de/allris/,,404x24
 https://www.doerpen.de/Buergerservice/Buergerinfosystem.htm,,404x23 200x1
 https://www.doerverden.de/verwaltung-politik/politik/sitzungen-versammlungen/,,404x35
-https://www.dransfeld.de/seite/300865,,404x13 403x11
+https://www.dransfeld.de/seite/300865,,404x24
 https://www.elm-asse.de/samtgemeinde/ratsinformationssystem/,,ConnectTimeoutx22 404x12 ConnectionErrorx1
 https://www.elsfleth.de/ratsinformationssystem-sessionnet/,,404x24
 https://www.elze.sitzung-online.de/public/,,robots.txtx23
@@ -325,7 +326,7 @@ https://www.emmerthal.de/allris/,,404x13 200x11
 https://www.eschede.sitzung-online.de/bi/,,robots.txtx24
 https://www.fassberg.de/allris/,,404x24
 https://www.fredenbeck.sitzung-online.de/public/,,robots.txtx23
-https://www.freren.de/rathaus/ratsinformationssystem/ratsinformationssystem.html,,503x35
+https://www.freren.de/rathaus/ratsinformationssystem/ratsinformationssystem.html,,404x35
 https://www.garbsen.de/rathaus/politik/ratsinformationssystem/,,404x35
 https://www.gemeinde-rosengarten.de/rathaus-und-politik/politik/allris-ratsinformation/,,404x35
 https://www.gemeinde-suedheide.sitzung-online.de/public/,,robots.txtx23
@@ -335,7 +336,7 @@ https://www.gwnk.de/portal/seiten/buergerinformation-sitzungsdienst-900000018-32
 https://www.hanstedt.de/allris/,,404x23 500x1
 https://www.haren.de/buergerservice-und-rathaus/politik/buergerinformationssystem/,,404x35
 https://www.harsefeld.de/allris/,,404x24
-https://www.harsum.sitzung-online.de/personal,,robots.txtx13
+https://www.harsum.sitzung-online.de/public/,,robots.txtx23
 https://www.holle.de/buergerinformationssystem/,,404x22 200x2
 https://www.holzminden.de/allris/,,404x23 500x1
 https://www.horneburg.de/allris/,,404x23 500x1
@@ -353,7 +354,7 @@ https://www.lachendorf.de/Startseite/Ratsinformations-system/,,200x22 404x13
 https://www.lamspringe.de/buergerinformationssystem/,,404x24
 https://www.landkreis-harburg.sitzung-online.de/public/,,robots.txtx23
 https://www.landkreis-lueneburg.de/allris/,,404x13 200x11
-https://www.landkreis-northeim.de/allris/,,404x23 500x1
+https://www.landkreis-northeim.de/allris/,,404x23 ReadTimeoutx1
 https://www.landkreis-peine.de/buergerinformationssystem/,,404x23 500x1
 https://www.landkreis-stade.de/allris/,,404x23 500x1
 https://www.landkreis-uelzen.de/desktopdefault.aspx/tabid-536/,,200x20 404x15
@@ -395,7 +396,7 @@ https://www.seevetal.de/allris/,,404x23 500x1
 https://www.sehnde.de/allris/,,404x24
 https://www.sg-dahlenburg.sitzung-online.de/bi/,,robots.txtx24
 https://www.sg-hage.de/rathaus-politik-buergerinfo/,,404x24
-https://www.sg-hankensbuettel.de/allris/,,404x23 500x1
+https://www.sg-hankensbuettel.de/allris/,,404x19 ReadTimeoutx4 500x1
 https://www.sg-hollenstedt.sitzung-online.de/public/,,robots.txtx23
 https://www.sg-ilmenau.sitzung-online.de/public/,,robots.txtx23
 https://www.sg-lathen.sitzung-online.de/public/,,robots.txtx23

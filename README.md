@@ -19,17 +19,17 @@ Stand des Gebietsbestands: 12.10.2026, also vor dem 01.11.2026 (siehe unten).
 ## Stand der RIS-Erfassung
 
 <!-- STATUS:START -->
-Automatisch erzeugt am 26.10.2026.
+Automatisch erzeugt am 01.11.2026.
 
 - RIS-Träger (ohne Mitgliedsgemeinden) mit Link: **439 von 440**
-- Mitgliedsgemeinden mit eigenem Bereich im RIS: **68 von 650**, die übrigen sind über das RIS ihrer Samtgemeinde zugeordnet
-- Häufigste Software: SessionNet (135), ALLRIS 4 (95), SD.NET RIM (89), ALLRIS (87), gremien.info (20), SD.NET (6), regisafe RIS (6), Verwaltungsportal (eingebettet) (5)
+- Mitgliedsgemeinden mit eigenem Bereich im RIS: **74 von 650**, die übrigen sind über das RIS ihrer Samtgemeinde zugeordnet
+- Häufigste Software: SessionNet (136), ALLRIS 4 (95), SD.NET RIM (89), ALLRIS (87), gremien.info (20), TYPO3-RIS (EDV Helmstedt) (7), SD.NET (6), regisafe RIS (6)
 - OParl-Schnittstellen gefunden: **0**
 - Offene Punkte: siehe [PRUEFLISTE.md](PRUEFLISTE.md)
 
 | Status in `data/ris.csv` | Einträge |
 |---|---:|
-| gefunden | 501 |
+| gefunden | 507 |
 | kein separates RIS | 2 |
 | Einstiegsseite | 2 |
 | kein öffentliches RIS gefunden | 1 |
