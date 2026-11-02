@@ -19,7 +19,7 @@ Stand des Gebietsbestands: 12.10.2026, also vor dem 01.11.2026 (siehe unten).
 ## Stand der RIS-Erfassung
 
 <!-- STATUS:START -->
-Automatisch erzeugt am 01.11.2026.
+Automatisch erzeugt am 02.11.2026.
 
 - RIS-Träger (ohne Mitgliedsgemeinden) mit Link: **439 von 440**
 - Mitgliedsgemeinden mit eigenem Bereich im RIS: **74 von 650**, die übrigen sind über das RIS ihrer Samtgemeinde zugeordnet
@@ -29,11 +29,12 @@ Automatisch erzeugt am 01.11.2026.
 
 | Status in `data/ris.csv` | Einträge |
 |---|---:|
-| gefunden | 507 |
+| gefunden | 506 |
 | kein separates RIS | 2 |
 | Einstiegsseite | 2 |
 | kein öffentliches RIS gefunden | 1 |
 | kein separates RIS gefunden | 1 |
+| nicht erreichbar | 1 |
 | prüfen | 1 |
 <!-- STATUS:END -->
 
