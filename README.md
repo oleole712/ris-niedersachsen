@@ -19,7 +19,7 @@ Stand des Gebietsbestands: 12.10.2026, also vor dem 01.11.2026 (siehe unten).
 ## Stand der RIS-Erfassung
 
 <!-- STATUS:START -->
-Automatisch erzeugt am 02.11.2026.
+Automatisch erzeugt am 03.11.2026.
 
 - RIS-Träger (ohne Mitgliedsgemeinden) mit Link: **439 von 440**
 - Mitgliedsgemeinden mit eigenem Bereich im RIS: **74 von 650**, die übrigen sind über das RIS ihrer Samtgemeinde zugeordnet
@@ -83,11 +83,14 @@ python scripts/build_db.py
 
 ## Gebietsänderung zum 01.11.2026
 
-Die Samtgemeinde Nordkehdingen und ihre Mitgliedsgemeinden Balje, Freiburg (Elbe),
-Krummendeich, Oederquart und Wischhafen werden aufgelöst. Aus ihnen wird die
-Einheitsgemeinde Nordkehdingen neu gebildet (Gesetz vom 03.03.2026, Nds. GVBl. 2026 Nr. 19).
-Die betroffenen Einträge haben in `gueltig_bis` den Wert `2026-10-31`. Sobald das
-Landesamt für Statistik den neuen Schlüssel veröffentlicht, wird die neue Gemeinde ergänzt.
+Zum 01.11.2026 sind die Samtgemeinde Nordkehdingen und ihre Mitgliedsgemeinden Balje,
+Freiburg (Elbe), Krummendeich, Oederquart und Wischhafen aufgelöst. Aus ihnen ist die
+Einheitsgemeinde Nordkehdingen neu gebildet worden (Gesetz vom 03.03.2026, Nds. GVBl. 2026 Nr. 19).
+Die aufgelösten Einträge haben in `gueltig_bis` den Wert `2026-10-31` und bleiben vorerst im
+Datensatz, damit ihr Schlüssel nachvollziehbar bleibt. Die neue Gemeinde wird ergänzt, sobald
+ihr amtlicher Regionalschlüssel veröffentlicht ist (Stand 03.11.2026: noch nicht veröffentlicht).
+Bis dahin führt das bisherige RIS der Samtgemeinde (nordkehdingen.ratsinfomanagement.net) zu
+den Gremien der neuen Gemeinde.
 
 ## Quellen und Lizenz
 
