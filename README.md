@@ -89,8 +89,8 @@ Einheitsgemeinde Nordkehdingen neu gebildet worden (Gesetz vom 03.03.2026, Nds. 
 Die aufgelösten Einträge haben in `gueltig_bis` den Wert `2026-10-31` und bleiben vorerst im
 Datensatz, damit ihr Schlüssel nachvollziehbar bleibt. Die neue Gemeinde wird ergänzt, sobald
 ihr amtlicher Regionalschlüssel veröffentlicht ist (Stand 03.11.2026: noch nicht veröffentlicht).
-Bis dahin führt das bisherige RIS der Samtgemeinde (nordkehdingen.ratsinfomanagement.net) zu
-den Gremien der neuen Gemeinde.
+Bis dahin bleibt das bisherige RIS der Samtgemeinde (nordkehdingen.ratsinfomanagement.net)
+eingetragen. Ob es für die neue Gemeinde weitergeführt wird, ist noch nicht geprüft.
 
 ## Quellen und Lizenz
 
