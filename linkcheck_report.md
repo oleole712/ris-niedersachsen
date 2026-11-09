@@ -1,6 +1,6 @@
-## Linkprüfung 2026-11-02
+## Linkprüfung 2026-11-09
 
-5 RIS-Links nicht erreichbar:
+6 RIS-Links nicht erreichbar:
 
 | Kommune | URL | Status |
 |---|---|---|
@@ -9,3 +9,4 @@
 | Löningen | https://ratsinfoservice.de/ris/loeningen/ | ConnectionError |
 | Wangerooge | https://ratsinfo.wangerooge.de/ | 503 |
 | Bunde | https://ratsinfo.gemeinde-bunde.de/bi/ | 404 |
+| Damme | https://ratsinfo.damme.de/bi/ | 404 |

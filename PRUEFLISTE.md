@@ -1,6 +1,6 @@
 # Prüfliste
 
-Offene Einträge: **8**
+Offene Einträge: **9**
 
 Wird von `scripts/build_db.py` automatisch erzeugt. Erledigte Einträge verschwinden, sobald sie mit `scripts/manuell.py` korrigiert sind.
 
@@ -20,13 +20,14 @@ Seite öffnen, den Link ins eigentliche RIS suchen und eintragen.
 | `031590000000` | Landkreis Göttingen | [öffnen](https://www.landkreisgoettingen.de/Landkreis/Politik/Kreistags-Infos-f%C3%BCr-B%C3%BCrger-innen/) | Ziel des Links nicht automatisch ermittelbar |
 | `034545402000` | Samtgemeinde Freren | [öffnen](https://www.freren.de/rathaus/ratsinformationssystem/ratsinformationssystem.html) |  |
 
-## nicht erreichbar (1)
+## nicht erreichbar (2)
 
 Link war bei der letzten Prüfung tot (404/5xx/Host nicht erreichbar).
 
 | ARS | Kommune | Link | Bemerkung |
 |---|---|---|---|
 | `034570024024` | Bunde | [öffnen](https://ratsinfo.gemeinde-bunde.de/bi/) | Linktext: öffentlich zugängliche Bürgerinfoportal im Ratsinformationssystem |
+| `034600002002` | Damme | [öffnen](https://ratsinfo.damme.de/bi/) | Linktext: Ratsinfo |
 
 ## prüfen (1)
 
