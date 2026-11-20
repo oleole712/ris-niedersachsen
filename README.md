@@ -19,7 +19,7 @@ Stand des Gebietsbestands: 12.10.2026, also vor dem 01.11.2026 (siehe unten).
 ## Stand der RIS-Erfassung
 
 <!-- STATUS:START -->
-Automatisch erzeugt am 17.11.2026.
+Automatisch erzeugt am 20.11.2026.
 
 - RIS-Träger (ohne Mitgliedsgemeinden) mit Link: **439 von 440**
 - Mitgliedsgemeinden mit eigenem Bereich im RIS: **76 von 650**, die übrigen sind über das RIS ihrer Samtgemeinde zugeordnet
@@ -88,7 +88,7 @@ Freiburg (Elbe), Krummendeich, Oederquart und Wischhafen aufgelöst. Aus ihnen i
 Einheitsgemeinde Nordkehdingen neu gebildet worden (Gesetz vom 03.03.2026, Nds. GVBl. 2026 Nr. 19).
 Die aufgelösten Einträge haben in `gueltig_bis` den Wert `2026-10-31` und bleiben vorerst im
 Datensatz, damit ihr Schlüssel nachvollziehbar bleibt. Die neue Gemeinde wird ergänzt, sobald
-ihr amtlicher Regionalschlüssel veröffentlicht ist (Stand 17.11.2026: noch nicht veröffentlicht).
+ihr amtlicher Regionalschlüssel veröffentlicht ist (Stand 20.11.2026: noch nicht veröffentlicht; das amtliche Gemeindeverzeichnis zeigt noch den Gebietsstand 30.09.2026).
 Bis dahin bleibt das bisherige RIS der Samtgemeinde (nordkehdingen.ratsinfomanagement.net)
 eingetragen. Ob es für die neue Gemeinde weitergeführt wird, ist noch nicht geprüft.
 
